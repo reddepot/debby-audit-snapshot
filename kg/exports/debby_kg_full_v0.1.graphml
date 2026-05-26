@@ -1,0 +1,1884 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="attr" attr.type="string"/>
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="node" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="nom_fr" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Substance::amiante">
+  <data key="d0">Substance</data>
+  <data key="d1">Amiante (chrysotile, amosite, crocidolite)</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::plomb">
+  <data key="d0">Substance</data>
+  <data key="d1">Plomb et composés inorganiques</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::benzene">
+  <data key="d0">Substance</data>
+  <data key="d1">Benzène</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::silice_cristalline">
+  <data key="d0">Substance</data>
+  <data key="d1">Silice cristalline (quartz, cristobalite, tridymite)</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::isocyanates">
+  <data key="d0">Substance</data>
+  <data key="d1">Isocyanates organiques (TDI, MDI, HDI)</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::formaldehyde">
+  <data key="d0">Substance</data>
+  <data key="d1">Formaldéhyde</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::chrome_hexavalent">
+  <data key="d0">Substance</data>
+  <data key="d1">Chrome hexavalent (Cr VI)</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::nickel">
+  <data key="d0">Substance</data>
+  <data key="d1">Nickel et composés</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::cadmium">
+  <data key="d0">Substance</data>
+  <data key="d1">Cadmium et composés</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Substance::mercure">
+  <data key="d0">Substance</data>
+  <data key="d1">Mercure et composés</data>
+  <data key="d2">Substance</data>
+</node>
+<node id="Pathologie::mesotheliome">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Mesotheliome</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::asbestose">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Asbestose</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::cancer_broncho_pulmonaire_amiante">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Cancer broncho pulmonaire amiante</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::plaques_pleurales">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Plaques pleurales</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::saturnisme">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Saturnisme</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::neuropathie_peripherique_plomb">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Neuropathie peripherique plomb</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::encephalopathie_plomb">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Encephalopathie plomb</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::nephropathie_plomb">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Nephropathie plomb</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::leucemie_myeloide">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Leucemie myeloide</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::aplasie_medullaire">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Aplasie medullaire</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::lymphome_non_hodgkinien">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Lymphome non hodgkinien</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::silicose">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Silicose</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::cancer_pulmonaire_silice">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Cancer pulmonaire silice</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::scleroderme_systemique">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Scleroderme systemique</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::asthme_isocyanates">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Asthme isocyanates</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::pneumopathie_hypersensibilite">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Pneumopathie hypersensibilite</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::cancer_nasopharynx">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Cancer nasopharynx</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::asthme_formaldehyde">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Asthme formaldehyde</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::dermatite_formaldehyde">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Dermatite formaldehyde</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::asthme_chromates">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Asthme chromates</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::cancer_broncho_pulmonaire_chrome">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Cancer broncho pulmonaire chrome</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::ulcerations_cutanees_chrome">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Ulcerations cutanees chrome</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::cancer_naso_sinusien_nickel">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Cancer naso sinusien nickel</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::asthme_nickel">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Asthme nickel</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::eczema_nickel">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Eczema nickel</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::cancer_pulmonaire_cadmium">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Cancer pulmonaire cadmium</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::nephropathie_cadmium">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Nephropathie cadmium</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::osteomalacie_cadmium">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Osteomalacie cadmium</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::intoxication_mercurielle">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Intoxication mercurielle</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::neuropathie_mercure">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Neuropathie mercure</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Pathologie::tremblement_intentionnel_mercure">
+  <data key="d0">Pathologie</data>
+  <data key="d1">Tremblement intentionnel mercure</data>
+  <data key="d2">Pathologie</data>
+</node>
+<node id="Tableau_MP::RA-12">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°12</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-18">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°18</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-19">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°19</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-22">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°22</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-25-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°25 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-47">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°47</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-47-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°47 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RA-47-TER">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RA n°47 TER</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-1">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°1</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-10">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°10</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-10-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°10 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-10-TER">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°10 TER</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-2">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°2</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-25">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°25</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-30">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°30</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-30-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°30 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-30-TER">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°30 TER</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-37">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°37</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-37-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°37 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-37-TER">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°37 TER</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-4">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°4</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-4-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°4 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-43-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°43 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-61">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°61</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-61-BIS">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°61 BIS</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Tableau_MP::RG-62">
+  <data key="d0">Tableau_MP</data>
+  <data key="d1">Tableau RG n°62</data>
+  <data key="d2">Tableau_MP</data>
+</node>
+<node id="Metier::applicateur_resines">
+  <data key="d0">Metier</data>
+  <data key="d1">Applicateur resines</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::bijoutier">
+  <data key="d0">Metier</data>
+  <data key="d1">Bijoutier</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::calorifugeur">
+  <data key="d0">Metier</data>
+  <data key="d1">Calorifugeur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::carrier">
+  <data key="d0">Metier</data>
+  <data key="d1">Carrier</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::chimiste">
+  <data key="d0">Metier</data>
+  <data key="d1">Chimiste</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::chromage_electrolytique">
+  <data key="d0">Metier</data>
+  <data key="d1">Chromage electrolytique</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::couvreur">
+  <data key="d0">Metier</data>
+  <data key="d1">Couvreur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::demolisseur">
+  <data key="d0">Metier</data>
+  <data key="d1">Demolisseur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::dentiste_amalgames">
+  <data key="d0">Metier</data>
+  <data key="d1">Dentiste amalgames</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::ferrailleur">
+  <data key="d0">Metier</data>
+  <data key="d1">Ferrailleur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::fondeur">
+  <data key="d0">Metier</data>
+  <data key="d1">Fondeur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::galvaniseur">
+  <data key="d0">Metier</data>
+  <data key="d1">Galvaniseur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::imprimeur">
+  <data key="d0">Metier</data>
+  <data key="d1">Imprimeur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::instruments_mesure">
+  <data key="d0">Metier</data>
+  <data key="d1">Instruments mesure</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::macon">
+  <data key="d0">Metier</data>
+  <data key="d1">Macon</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::mecanicien">
+  <data key="d0">Metier</data>
+  <data key="d1">Mecanicien</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::menuisier_panneaux">
+  <data key="d0">Metier</data>
+  <data key="d1">Menuisier panneaux</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::metallurgiste">
+  <data key="d0">Metier</data>
+  <data key="d1">Metallurgiste</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::orpaillage">
+  <data key="d0">Metier</data>
+  <data key="d1">Orpaillage</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::ouvrier_batteries">
+  <data key="d0">Metier</data>
+  <data key="d1">Ouvrier batteries</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::ouvrier_mousses_polyurethane">
+  <data key="d0">Metier</data>
+  <data key="d1">Ouvrier mousses polyurethane</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::peintre">
+  <data key="d0">Metier</data>
+  <data key="d1">Peintre</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::peintre_carrosserie">
+  <data key="d0">Metier</data>
+  <data key="d1">Peintre carrosserie</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::peintre_renovation">
+  <data key="d0">Metier</data>
+  <data key="d1">Peintre renovation</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::personnel_anatomopathologie">
+  <data key="d0">Metier</data>
+  <data key="d1">Personnel anatomopathologie</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::personnel_morgue">
+  <data key="d0">Metier</data>
+  <data key="d1">Personnel morgue</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::plombier">
+  <data key="d0">Metier</data>
+  <data key="d1">Plombier</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::pompiste">
+  <data key="d0">Metier</data>
+  <data key="d1">Pompiste</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::pressing">
+  <data key="d0">Metier</data>
+  <data key="d1">Pressing</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::raffinerie_nickel">
+  <data key="d0">Metier</data>
+  <data key="d1">Raffinerie nickel</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::raffineur">
+  <data key="d0">Metier</data>
+  <data key="d1">Raffineur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::sableur">
+  <data key="d0">Metier</data>
+  <data key="d1">Sableur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::soudeur_brasure">
+  <data key="d0">Metier</data>
+  <data key="d1">Soudeur brasure</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::soudeur_inox">
+  <data key="d0">Metier</data>
+  <data key="d1">Soudeur inox</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::tailleur_pierre">
+  <data key="d0">Metier</data>
+  <data key="d1">Tailleur pierre</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::tanneur">
+  <data key="d0">Metier</data>
+  <data key="d1">Tanneur</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Metier::thermometres">
+  <data key="d0">Metier</data>
+  <data key="d1">Thermometres</data>
+  <data key="d2">Metier</data>
+</node>
+<node id="Organe::poumon">
+  <data key="d0">Organe</data>
+  <data key="d1">Poumon</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::plevre">
+  <data key="d0">Organe</data>
+  <data key="d1">Plèvre</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::voies_aeriennes_sup">
+  <data key="d0">Organe</data>
+  <data key="d1">Voies aériennes supérieures</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::moelle_osseuse">
+  <data key="d0">Organe</data>
+  <data key="d1">Moelle osseuse</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::systeme_nerveux">
+  <data key="d0">Organe</data>
+  <data key="d1">Système nerveux</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::rein">
+  <data key="d0">Organe</data>
+  <data key="d1">Rein</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::peau">
+  <data key="d0">Organe</data>
+  <data key="d1">Peau</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::foie">
+  <data key="d0">Organe</data>
+  <data key="d1">Foie</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Organe::os">
+  <data key="d0">Organe</data>
+  <data key="d1">Os</data>
+  <data key="d2">Organe</data>
+</node>
+<node id="Examen::scanner_thoracique">
+  <data key="d0">Examen</data>
+  <data key="d1">Scanner thoracique</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::radiographie_thoracique">
+  <data key="d0">Examen</data>
+  <data key="d1">Radiographie thoracique</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::audiogramme">
+  <data key="d0">Examen</data>
+  <data key="d1">Audiogramme</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::efr">
+  <data key="d0">Examen</data>
+  <data key="d1">Épreuves fonctionnelles respiratoires (EFR)</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::plombemie">
+  <data key="d0">Examen</data>
+  <data key="d1">Plombémie sanguine</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::dosage_chrome_urinaire">
+  <data key="d0">Examen</data>
+  <data key="d1">Dosage chrome urinaire</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::dosage_cadmium_urinaire">
+  <data key="d0">Examen</data>
+  <data key="d1">Dosage cadmium urinaire</data>
+  <data key="d2">Examen</data>
+</node>
+<node id="Examen::creatinemie">
+  <data key="d0">Examen</data>
+  <data key="d1">Créatininémie</data>
+  <data key="d2">Examen</data>
+</node>
+<edge source="Substance::amiante" target="Pathologie::mesotheliome" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::amiante" target="Pathologie::asbestose" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::amiante" target="Pathologie::cancer_broncho_pulmonaire_amiante" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::amiante" target="Pathologie::plaques_pleurales" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::plomb" target="Pathologie::saturnisme" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2A</data>
+</edge>
+<edge source="Substance::plomb" target="Pathologie::neuropathie_peripherique_plomb" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2A</data>
+</edge>
+<edge source="Substance::plomb" target="Pathologie::encephalopathie_plomb" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2A</data>
+</edge>
+<edge source="Substance::plomb" target="Pathologie::nephropathie_plomb" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2A</data>
+</edge>
+<edge source="Substance::benzene" target="Pathologie::leucemie_myeloide" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::benzene" target="Pathologie::aplasie_medullaire" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::benzene" target="Pathologie::lymphome_non_hodgkinien" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::silice_cristalline" target="Pathologie::silicose" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::silice_cristalline" target="Pathologie::cancer_pulmonaire_silice" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::silice_cristalline" target="Pathologie::scleroderme_systemique" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::isocyanates" target="Pathologie::asthme_isocyanates" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-3</data>
+</edge>
+<edge source="Substance::isocyanates" target="Pathologie::pneumopathie_hypersensibilite" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-3</data>
+</edge>
+<edge source="Substance::formaldehyde" target="Pathologie::cancer_nasopharynx" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::formaldehyde" target="Pathologie::asthme_formaldehyde" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::formaldehyde" target="Pathologie::dermatite_formaldehyde" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::chrome_hexavalent" target="Pathologie::asthme_chromates" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::chrome_hexavalent" target="Pathologie::cancer_broncho_pulmonaire_chrome" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::chrome_hexavalent" target="Pathologie::ulcerations_cutanees_chrome" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::nickel" target="Pathologie::cancer_naso_sinusien_nickel" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::nickel" target="Pathologie::asthme_nickel" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::nickel" target="Pathologie::eczema_nickel" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::cadmium" target="Pathologie::cancer_pulmonaire_cadmium" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::cadmium" target="Pathologie::nephropathie_cadmium" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::cadmium" target="Pathologie::osteomalacie_cadmium" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-1</data>
+</edge>
+<edge source="Substance::mercure" target="Pathologie::intoxication_mercurielle" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2B</data>
+</edge>
+<edge source="Substance::mercure" target="Pathologie::neuropathie_mercure" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2B</data>
+</edge>
+<edge source="Substance::mercure" target="Pathologie::tremblement_intentionnel_mercure" id="CAUSE">
+  <data key="d3">CAUSE</data>
+  <data key="d4">IARC-2B</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Tableau_MP::RG-30" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Tableau_MP::RG-30-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Tableau_MP::RG-30-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Tableau_MP::RA-47" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Tableau_MP::RA-47-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Tableau_MP::RA-47-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Organe::plevre" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::mesotheliome" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Tableau_MP::RG-30" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Tableau_MP::RG-30-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Tableau_MP::RG-30-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Tableau_MP::RA-47" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Tableau_MP::RA-47-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Tableau_MP::RA-47-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::asbestose" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Tableau_MP::RG-30" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Tableau_MP::RG-30-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Tableau_MP::RG-30-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Tableau_MP::RA-47" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Tableau_MP::RA-47-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Tableau_MP::RA-47-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_amiante" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Tableau_MP::RG-30" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Tableau_MP::RG-30-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Tableau_MP::RG-30-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Tableau_MP::RA-47" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Tableau_MP::RA-47-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Tableau_MP::RA-47-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Organe::plevre" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::plaques_pleurales" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::saturnisme" target="Tableau_MP::RG-1" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::saturnisme" target="Tableau_MP::RA-18" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::saturnisme" target="Organe::systeme_nerveux" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::saturnisme" target="Examen::plombemie" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">Décret-3-mai-2023</data>
+</edge>
+<edge source="Pathologie::neuropathie_peripherique_plomb" target="Tableau_MP::RG-1" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::neuropathie_peripherique_plomb" target="Tableau_MP::RA-18" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::neuropathie_peripherique_plomb" target="Organe::systeme_nerveux" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::neuropathie_peripherique_plomb" target="Examen::plombemie" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">Décret-3-mai-2023</data>
+</edge>
+<edge source="Pathologie::encephalopathie_plomb" target="Tableau_MP::RG-1" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::encephalopathie_plomb" target="Tableau_MP::RA-18" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::encephalopathie_plomb" target="Organe::systeme_nerveux" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::nephropathie_plomb" target="Tableau_MP::RG-1" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::nephropathie_plomb" target="Tableau_MP::RA-18" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::nephropathie_plomb" target="Organe::rein" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::nephropathie_plomb" target="Examen::creatinemie" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">Décret-3-mai-2023</data>
+</edge>
+<edge source="Pathologie::leucemie_myeloide" target="Tableau_MP::RG-4" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::leucemie_myeloide" target="Tableau_MP::RG-4-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::leucemie_myeloide" target="Tableau_MP::RA-19" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::leucemie_myeloide" target="Tableau_MP::RA-25-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::leucemie_myeloide" target="Organe::moelle_osseuse" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::aplasie_medullaire" target="Tableau_MP::RG-4" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::aplasie_medullaire" target="Tableau_MP::RG-4-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::aplasie_medullaire" target="Tableau_MP::RA-19" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::aplasie_medullaire" target="Tableau_MP::RA-25-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::aplasie_medullaire" target="Organe::moelle_osseuse" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::lymphome_non_hodgkinien" target="Tableau_MP::RG-4" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::lymphome_non_hodgkinien" target="Tableau_MP::RG-4-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::lymphome_non_hodgkinien" target="Tableau_MP::RA-19" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::lymphome_non_hodgkinien" target="Tableau_MP::RA-25-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::lymphome_non_hodgkinien" target="Organe::moelle_osseuse" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::silicose" target="Tableau_MP::RG-25" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::silicose" target="Tableau_MP::RA-22" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::silicose" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::silicose" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">INRS-2017</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_silice" target="Tableau_MP::RG-25" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_silice" target="Tableau_MP::RA-22" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_silice" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_silice" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::scleroderme_systemique" target="Tableau_MP::RG-25" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::scleroderme_systemique" target="Tableau_MP::RA-22" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::scleroderme_systemique" target="Organe::peau" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::asthme_isocyanates" target="Tableau_MP::RG-62" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_isocyanates" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::asthme_isocyanates" target="Examen::efr" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">INRS-2017</data>
+</edge>
+<edge source="Pathologie::pneumopathie_hypersensibilite" target="Tableau_MP::RG-62" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::pneumopathie_hypersensibilite" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::cancer_nasopharynx" target="Tableau_MP::RG-43-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_nasopharynx" target="Organe::voies_aeriennes_sup" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::asthme_formaldehyde" target="Tableau_MP::RG-43-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_formaldehyde" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::dermatite_formaldehyde" target="Tableau_MP::RG-43-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::dermatite_formaldehyde" target="Organe::peau" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::asthme_chromates" target="Tableau_MP::RG-10" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_chromates" target="Tableau_MP::RG-10-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_chromates" target="Tableau_MP::RG-10-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_chromates" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::asthme_chromates" target="Examen::efr" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">INRS-2017</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_chrome" target="Tableau_MP::RG-10" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_chrome" target="Tableau_MP::RG-10-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_chrome" target="Tableau_MP::RG-10-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_chrome" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::cancer_broncho_pulmonaire_chrome" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::ulcerations_cutanees_chrome" target="Tableau_MP::RG-10" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::ulcerations_cutanees_chrome" target="Tableau_MP::RG-10-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::ulcerations_cutanees_chrome" target="Tableau_MP::RG-10-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::ulcerations_cutanees_chrome" target="Organe::peau" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::ulcerations_cutanees_chrome" target="Examen::dosage_chrome_urinaire" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">INRS-2020</data>
+</edge>
+<edge source="Pathologie::cancer_naso_sinusien_nickel" target="Tableau_MP::RG-37" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_naso_sinusien_nickel" target="Tableau_MP::RG-37-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_naso_sinusien_nickel" target="Tableau_MP::RG-37-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_naso_sinusien_nickel" target="Organe::voies_aeriennes_sup" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::cancer_naso_sinusien_nickel" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::asthme_nickel" target="Tableau_MP::RG-37" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_nickel" target="Tableau_MP::RG-37-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_nickel" target="Tableau_MP::RG-37-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::asthme_nickel" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::eczema_nickel" target="Tableau_MP::RG-37" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::eczema_nickel" target="Tableau_MP::RG-37-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::eczema_nickel" target="Tableau_MP::RG-37-TER" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::eczema_nickel" target="Organe::peau" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_cadmium" target="Tableau_MP::RG-61" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_cadmium" target="Tableau_MP::RG-61-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_cadmium" target="Organe::poumon" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">cancereux</data>
+</edge>
+<edge source="Pathologie::cancer_pulmonaire_cadmium" target="Examen::scanner_thoracique" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">HAS-2022</data>
+</edge>
+<edge source="Pathologie::nephropathie_cadmium" target="Tableau_MP::RG-61" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::nephropathie_cadmium" target="Tableau_MP::RG-61-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::nephropathie_cadmium" target="Organe::rein" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::nephropathie_cadmium" target="Examen::dosage_cadmium_urinaire" id="SURVEILLANCE">
+  <data key="d3">SURVEILLANCE</data>
+  <data key="d4">INRS-2020</data>
+</edge>
+<edge source="Pathologie::osteomalacie_cadmium" target="Tableau_MP::RG-61" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::osteomalacie_cadmium" target="Tableau_MP::RG-61-BIS" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::osteomalacie_cadmium" target="Organe::os" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::intoxication_mercurielle" target="Tableau_MP::RG-2" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::intoxication_mercurielle" target="Tableau_MP::RA-12" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::intoxication_mercurielle" target="Organe::systeme_nerveux" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::neuropathie_mercure" target="Tableau_MP::RG-2" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::neuropathie_mercure" target="Tableau_MP::RA-12" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::neuropathie_mercure" target="Organe::systeme_nerveux" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Pathologie::tremblement_intentionnel_mercure" target="Tableau_MP::RG-2" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::tremblement_intentionnel_mercure" target="Tableau_MP::RA-12" id="CLASSIFIEE_DANS">
+  <data key="d3">CLASSIFIEE_DANS</data>
+  <data key="d4">partielle</data>
+</edge>
+<edge source="Pathologie::tremblement_intentionnel_mercure" target="Organe::systeme_nerveux" id="CONCERNE_ORGANE">
+  <data key="d3">CONCERNE_ORGANE</data>
+  <data key="d4">lesion</data>
+</edge>
+<edge source="Tableau_MP::RA-12" target="Metier::dentiste_amalgames" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-12" target="Metier::thermometres" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-12" target="Metier::instruments_mesure" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-12" target="Metier::orpaillage" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-18" target="Metier::peintre_renovation" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-18" target="Metier::ferrailleur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-18" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-18" target="Metier::fondeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-18" target="Metier::ouvrier_batteries" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-19" target="Metier::pompiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-19" target="Metier::chimiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-19" target="Metier::raffineur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-19" target="Metier::imprimeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-19" target="Metier::pressing" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-22" target="Metier::tailleur_pierre" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-22" target="Metier::macon" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-22" target="Metier::carrier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-22" target="Metier::fondeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-22" target="Metier::sableur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-25-BIS" target="Metier::pompiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-25-BIS" target="Metier::chimiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-25-BIS" target="Metier::raffineur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-25-BIS" target="Metier::imprimeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-25-BIS" target="Metier::pressing" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47" target="Metier::couvreur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47" target="Metier::calorifugeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47" target="Metier::mecanicien" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47" target="Metier::plombier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-BIS" target="Metier::couvreur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-BIS" target="Metier::calorifugeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-BIS" target="Metier::mecanicien" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-BIS" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-BIS" target="Metier::plombier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-TER" target="Metier::couvreur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-TER" target="Metier::calorifugeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-TER" target="Metier::mecanicien" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-TER" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RA-47-TER" target="Metier::plombier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-1" target="Metier::peintre_renovation" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-1" target="Metier::ferrailleur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-1" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-1" target="Metier::fondeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-1" target="Metier::ouvrier_batteries" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10" target="Metier::chromage_electrolytique" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10" target="Metier::soudeur_inox" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10" target="Metier::tanneur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10" target="Metier::peintre" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-BIS" target="Metier::chromage_electrolytique" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-BIS" target="Metier::soudeur_inox" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-BIS" target="Metier::tanneur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-BIS" target="Metier::peintre" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-TER" target="Metier::chromage_electrolytique" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-TER" target="Metier::soudeur_inox" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-TER" target="Metier::tanneur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-10-TER" target="Metier::peintre" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-2" target="Metier::dentiste_amalgames" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-2" target="Metier::thermometres" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-2" target="Metier::instruments_mesure" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-2" target="Metier::orpaillage" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-25" target="Metier::tailleur_pierre" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-25" target="Metier::macon" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-25" target="Metier::carrier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-25" target="Metier::fondeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-25" target="Metier::sableur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30" target="Metier::couvreur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30" target="Metier::calorifugeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30" target="Metier::mecanicien" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30" target="Metier::plombier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-BIS" target="Metier::couvreur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-BIS" target="Metier::calorifugeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-BIS" target="Metier::mecanicien" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-BIS" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-BIS" target="Metier::plombier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-TER" target="Metier::couvreur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-TER" target="Metier::calorifugeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-TER" target="Metier::mecanicien" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-TER" target="Metier::demolisseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-30-TER" target="Metier::plombier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37" target="Metier::raffinerie_nickel" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37" target="Metier::soudeur_inox" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37" target="Metier::galvaniseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37" target="Metier::bijoutier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-BIS" target="Metier::raffinerie_nickel" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-BIS" target="Metier::soudeur_inox" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-BIS" target="Metier::galvaniseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-BIS" target="Metier::bijoutier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-TER" target="Metier::raffinerie_nickel" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-TER" target="Metier::soudeur_inox" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-TER" target="Metier::galvaniseur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-37-TER" target="Metier::bijoutier" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4" target="Metier::pompiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4" target="Metier::chimiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4" target="Metier::raffineur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4" target="Metier::imprimeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4" target="Metier::pressing" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4-BIS" target="Metier::pompiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4-BIS" target="Metier::chimiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4-BIS" target="Metier::raffineur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4-BIS" target="Metier::imprimeur" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-4-BIS" target="Metier::pressing" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-43-BIS" target="Metier::personnel_morgue" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-43-BIS" target="Metier::personnel_anatomopathologie" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-43-BIS" target="Metier::menuisier_panneaux" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-61" target="Metier::soudeur_brasure" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-61" target="Metier::ouvrier_batteries" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-61" target="Metier::metallurgiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-61-BIS" target="Metier::soudeur_brasure" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-61-BIS" target="Metier::ouvrier_batteries" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-61-BIS" target="Metier::metallurgiste" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-62" target="Metier::peintre_carrosserie" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-62" target="Metier::ouvrier_mousses_polyurethane" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Tableau_MP::RG-62" target="Metier::applicateur_resines" id="CONCERNE_METIER">
+  <data key="d3">CONCERNE_METIER</data>
+  <data key="d4">quotidienne</data>
+</edge>
+<edge source="Metier::applicateur_resines" target="Substance::isocyanates" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::bijoutier" target="Substance::nickel" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::calorifugeur" target="Substance::amiante" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::carrier" target="Substance::silice_cristalline" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::chimiste" target="Substance::benzene" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::chromage_electrolytique" target="Substance::chrome_hexavalent" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::couvreur" target="Substance::amiante" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::demolisseur" target="Substance::amiante" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::demolisseur" target="Substance::plomb" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::dentiste_amalgames" target="Substance::mercure" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::ferrailleur" target="Substance::plomb" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::fondeur" target="Substance::plomb" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::fondeur" target="Substance::silice_cristalline" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::galvaniseur" target="Substance::nickel" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::imprimeur" target="Substance::benzene" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::instruments_mesure" target="Substance::mercure" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::macon" target="Substance::silice_cristalline" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::mecanicien" target="Substance::amiante" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::menuisier_panneaux" target="Substance::formaldehyde" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::metallurgiste" target="Substance::cadmium" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::orpaillage" target="Substance::mercure" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::ouvrier_batteries" target="Substance::plomb" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::ouvrier_batteries" target="Substance::cadmium" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::ouvrier_mousses_polyurethane" target="Substance::isocyanates" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::peintre" target="Substance::chrome_hexavalent" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::peintre_carrosserie" target="Substance::isocyanates" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::peintre_renovation" target="Substance::plomb" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::personnel_anatomopathologie" target="Substance::formaldehyde" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::personnel_morgue" target="Substance::formaldehyde" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::plombier" target="Substance::amiante" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::pompiste" target="Substance::benzene" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::pressing" target="Substance::benzene" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::raffinerie_nickel" target="Substance::nickel" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::raffineur" target="Substance::benzene" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::sableur" target="Substance::silice_cristalline" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::soudeur_brasure" target="Substance::cadmium" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::soudeur_inox" target="Substance::chrome_hexavalent" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::soudeur_inox" target="Substance::nickel" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::tailleur_pierre" target="Substance::silice_cristalline" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::tanneur" target="Substance::chrome_hexavalent" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+<edge source="Metier::thermometres" target="Substance::mercure" id="EXPOSE_A">
+  <data key="d3">EXPOSE_A</data>
+  <data key="d4">modere</data>
+</edge>
+</graph></graphml>

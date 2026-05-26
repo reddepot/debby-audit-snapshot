@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "version": "kuzu-10sub-v0.1",
+    "db_path": "/Users/radu/Developer/projects/debby-audit-snapshot/kg/data/kuzu.db",
+    "runs_per_query": 3
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "label": "Amiante → mésothéliome → tableau",
+      "hops": 3,
+      "elapsed_mean_ms": 6.581971965109308,
+      "elapsed_p95_ms": 0.7693750085309148,
+      "elapsed_std_ms": 10.10782987734407,
+      "row_count": 6,
+      "passed": true,
+      "preview": "RA-47 | Tableau RA n°47 | RA-47-BIS | Tableau RA n°47 BIS | RA-47-TER | Tableau RA n°47 TER | RG-30 | Tableau RG n°30 | RG-30-BIS | Tableau RG n°30 BIS | RG-30-TER | Tableau RG n°30 TER"
+    },
+    {
+      "id": "Q2",
+      "label": "Métier couvreur → substance → pathologie → tableau",
+      "hops": 4,
+      "elapsed_mean_ms": 3.8278476955989995,
+      "elapsed_p95_ms": 2.921542036347091,
+      "elapsed_std_ms": 2.5392645722174385,
+      "row_count": 6,
+      "passed": true,
+      "preview": "RA-47 | RA-47-BIS | RA-47-TER | RG-30 | RG-30-BIS | RG-30-TER"
+    },
+    {
+      "id": "Q3",
+      "label": "Substance benzène → pathologie → organe",
+      "hops": 3,
+      "elapsed_mean_ms": 1.1301386402919888,
+      "elapsed_p95_ms": 1.0954160243272781,
+      "elapsed_std_ms": 0.18093334890261983,
+      "row_count": 1,
+      "passed": true,
+      "preview": "Moelle osseuse"
+    },
+    {
+      "id": "Q4",
+      "label": "Tableau RG-25 (silicose) → métiers exposés",
+      "hops": 2,
+      "elapsed_mean_ms": 0.5189720153187712,
+      "elapsed_p95_ms": 0.4760830197483301,
+      "elapsed_std_ms": 0.08365628620336195,
+      "row_count": 5,
+      "passed": true,
+      "preview": "Carrier | Fondeur | Macon | Sableur | Tailleur pierre"
+    },
+    {
+      "id": "Q5",
+      "label": "Surveillance amiante : scanner thoracique périodicité",
+      "hops": 2,
+      "elapsed_mean_ms": 0.9273473794261614,
+      "elapsed_p95_ms": 0.486917095258832,
+      "elapsed_std_ms": 0.8301661266055117,
+      "row_count": 1,
+      "passed": true,
+      "preview": "Scanner thoracique | 60 | HAS-2022 | 2022"
+    },
+    {
+      "id": "Q6",
+      "label": "Substances VLEP 8h < 0.05 mg/m³",
+      "hops": 1,
+      "elapsed_mean_ms": 1.5422220264251034,
+      "elapsed_p95_ms": 0.4495420726016164,
+      "elapsed_std_ms": 1.9168414806731042,
+      "row_count": 6,
+      "passed": true,
+      "preview": "Chrome hexavalent (Cr VI) | 0.001 | C1A | Nickel et composés | 0.001 | C1A | Cadmium et composés | 0.001 | C1B | Isocyanates organiques (TDI, MDI, HDI) | 0.005 | R2 | Amiante (chrysotile, amosite, crocidolite) | 0.01 | C1A | Mercure et composés | 0.02 | R1B"
+    },
+    {
+      "id": "Q7",
+      "label": "Substances IARC-1 affectant le poumon",
+      "hops": 3,
+      "elapsed_mean_ms": 1.762264020120104,
+      "elapsed_p95_ms": 1.539875054731965,
+      "elapsed_std_ms": 0.4722257789743876,
+      "row_count": 6,
+      "passed": true,
+      "preview": "Amiante (chrysotile, amosite, crocidolite) | Cadmium et composés | Chrome hexavalent (Cr VI) | Formaldéhyde | Nickel et composés | Silice cristalline (quartz, cristobalite, tridymite)"
+    },
+    {
+      "id": "Q8",
+      "label": "Soudeur inox → cancer broncho-pulmonaire + asthme + surveillance",
+      "hops": 5,
+      "elapsed_mean_ms": 3.3700139805053673,
+      "elapsed_p95_ms": 3.2040419755503535,
+      "elapsed_std_ms": 0.5246167034672595,
+      "row_count": 18,
+      "passed": true,
+      "preview": "Chrome hexavalent (Cr VI) | Cancer broncho pulmonaire chrome | RG-10 | Scanner thoracique | Chrome hexavalent (Cr VI) | Ulcerations cutanees chrome | RG-10 | Dosage chrome urinaire | Chrome hexavalent (Cr VI) | Asthme chromates | RG-10 | Épreuves fonctionnelles respiratoires (EFR) | Chrome hexavalen"
+    },
+    {
+      "id": "Q9",
+      "label": "Surveillance plomb sources <2015 (test obsolescence I.7)",
+      "hops": 2,
+      "elapsed_mean_ms": 0.7240416404480735,
+      "elapsed_p95_ms": 0.6404999876394868,
+      "elapsed_std_ms": 0.2853855662089461,
+      "row_count": 0,
+      "passed": true,
+      "preview": ""
+    },
+    {
+      "id": "Q10",
+      "label": "Mécanicien automobile → solvants → tableaux + conduite",
+      "hops": 4,
+      "elapsed_mean_ms": 3.868013659181694,
+      "elapsed_p95_ms": 2.6155830128118396,
+      "elapsed_std_ms": 2.495215813365978,
+      "row_count": 0,
+      "passed": true,
+      "preview": ""
+    }
+  ],
+  "go_no_go": {
+    "questions_passed": 10,
+    "questions_total": 10,
+    "go_threshold": 7,
+    "go_status": "GO",
+    "latency_mean_ms": 2.425283302242557,
+    "latency_p95_ms": 6.581971965109308,
+    "latency_threshold_ms": 500,
+    "latency_status": "GO"
+  }
+}
