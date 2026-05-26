@@ -19,3 +19,7 @@ __pycache__/
 *.tmp
 *.log
 *.bak
+
+# Notes de session internes (non publiques)
+WORK_SESSION_NOTES.md
+responses/  # produites par les sessions de travail, à publier sélectivement
