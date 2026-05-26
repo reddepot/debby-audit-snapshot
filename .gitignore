@@ -1,0 +1,21 @@
+# Local sensitive
+*.key
+*.env
+.env*
+or.key
+rclone.conf
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.pytest_cache/
+
+# Mac
+.DS_Store
+
+# Tmp
+*.tmp
+*.log
+*.bak

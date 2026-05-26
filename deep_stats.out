@@ -1,0 +1,227 @@
+=== DEEP STATS DEBBY — 871 shards ===
+  200/871 shards processed
+  400/871 shards processed
+  600/871 shards processed
+  800/871 shards processed
+
+=== ÉCHELLE ===
+works=2,608,976 chunks=22,901,283
+
+=== TEXTE (chunk) ===
+chars  : médiane=3271 moy=2920 p5=971 p95=3600 max=3600
+bytes  : médiane=3319 moy=2989 max=10800
+
+=== TITRE ===
+chars  : médiane=97 moy=100 max=500
+titres vides : 2,313 (0.09%)
+
+=== CITABILITÉ (par work) ===
+DOI présent : 2,036,142 (78.0%)
+titre présent : 2,606,663 (99.9%)
+venue présent : 1,558,197 (59.7%)
+authors présent : 1,821,166 (69.8%)
+concepts présent : 1,607,023 (61.6%)
+
+=== TOP 25 VENUES ===
+  40,676  PLoS ONE
+  23,009  Scientific Reports
+  19,806  Cureus
+  18,536  Journal of Clinical Medicine
+  16,369  International Journal of Molecular Sciences
+  12,690  International Journal of Environmental Research and Public H
+  11,363  Nutrients
+  10,911  Frontiers in Pharmacology
+  10,276  Applied Sciences
+   9,630  Frontiers in Immunology
+   9,394  Cancers
+   8,339  Critical Care
+   8,127  BMC Cancer
+   7,903  Molecules
+   7,797  BMJ Case Reports
+   7,569  Clinical Case Reports
+   7,462  PubMed
+   7,098  Medicina
+   6,917  Frontiers in Psychiatry
+   6,906  Frontiers in Oncology
+   6,844  Oncotarget
+   6,284  Trials
+   6,159  medRxiv
+   5,999  Frontiers in Physiology
+   5,761  Cochrane Database of Systematic Reviews
+
+=== TOP 30 CONCEPTS (OpenAlex) ===
+  1,025,557  Medicine
+  207,124  Internal medicine
+  114,200  Biology
+  88,150  Psychology
+  82,250  Surgery
+  75,169  Chemistry
+  72,734  Computer science
+  59,187  Disease
+  52,798  Coronavirus disease 2019 (COVID-19)
+  50,049  Cancer
+  49,325  Cardiology
+  48,590  Cancer research
+  47,709  Intensive care medicine
+  43,280  Pathology
+  41,793  Immunology
+  40,961  Materials science
+  38,062  Radiology
+  36,826  Oncology
+  34,893  Population
+  30,836  Virology
+  30,190  Pharmacology
+  29,007  Dermatology
+  28,501  Randomized controlled trial
+  28,434  Endocrinology
+  26,454  Immune system
+  26,438  Diabetes mellitus
+  26,191  Severe acute respiratory syndrome corona
+  25,142  Humanities
+  24,554  Political science
+  24,270  Pandemic
+
+=== EBM=1 (méta/SR) — vérif titre ===
+ebm=1 avec titre 'meta'/'systematic' : 47,841 | sans ces mots dans titre : 415,459
+  → faux-positifs possibles ebm=1 : 415,459 (89.7%)
+
+=== CROSSTAB YEAR × SOURCE_TYPE (top 20) ===
+  1,126,427  2020s × litterature
+  896,602  2010s × litterature
+  314,130  0 × litterature
+  121,073  2000s × litterature
+   61,168  2020s × sst
+   51,124  2010s × sst
+   19,977  0 × sst
+   10,400  2000s × sst
+    2,180  1990s × litterature
+    1,438  0 × fiche_metier
+    1,195  1980s × litterature
+    1,189  1990s × sst
+      691  1970s × litterature
+      381  1980s × sst
+      372  1960s × litterature
+      138  1950s × litterature
+      132  1970s × sst
+       57  1960s × sst
+       53  0 × toxico
+       36  ancien × litterature
+
+=== SIDE-TABLES (deep-dive) ===
+rétractations flaggées : 234
+  natures: {'Retraction': 152, 'Expression of concern': 82, 'Correction': 27, 'Reinstatement': 4}
+  top raisons:
+     35  Concerns/Issues about Data;Concerns/Issues about R
+     19  Conflict of Interest;
+      8  Withdrawn as Out of Date;
+      8  Concerns/Issues about Data;Concerns/Issues about I
+      7  Retract and Replace;Withdrawn as Out of Date;
+      7  Concerns/Issues about Authorship/Affiliation;Conce
+      6  Investigation by Journal/Publisher;
+      5  Date of Article and/or Notice Unknown;Notice - Lim
+year_title_fix : 3,317 years + 3,205 titles récupérés via Crossref
+  top années récupérées: {2022: 854, 2023: 493, 2021: 349, 2020: 190, 2018: 117, 2017: 117, 2016: 106, 2019: 105, 2014: 102, 2015: 100}
+body_lang_fix : 2,608,976 works analysés
+
+=== ENTITÉS (graph seed) — sur 251,521 works ===
+TOP 20 substances :
+  146,308  lead
+  4,941  silica
+  3,677  pah
+  3,460  nickel
+  2,618  arsenic
+  2,591  cobalt
+  2,578  cadmium
+  2,453  asbestos
+  2,295  benzene
+  1,927  chromium
+  1,422  formaldehyde
+    980  hap
+    468  chrome
+    412  plomb
+    377  amiante
+    299  isocyanate
+    223  wood dust
+    223  silice
+    173  mercure
+    143  solvant
+TOP 15 pathologies :
+  25,400  asthma
+  22,969  leukemia
+  15,969  copd
+  2,803  mesothelioma
+  2,386  tms
+  2,186  carpal tunnel
+    533  asthme
+    327  bpco
+    241  dermatite
+    193  leucémie
+    185  surdité
+    177  lombalgie
+    172  adénocarcinome
+     77  cancer pulmonaire
+     64  canal carpien
+TOP 15 métiers :
+  4,213  baker
+  2,670  farmer
+    716  miner
+    394  painter
+    295  mineur
+    270  agriculteur
+    222  peintre
+    208  charpentier
+    185  boulanger
+    159  welder
+    156  macon
+     45  maçon
+     30  aide-soignant
+     23  coiffeur
+     20  menuisier
+TOP 20 CAS :
+     32  588-81-5
+     26  2016-12-1
+     23  68-12-2
+     18  80-05-7
+     17  127-18-4
+     17  79-01-6
+     16  100-41-4
+     16  7440-38-2
+     16  79-06-1
+     16  2021-17-4
+     15  127-19-5
+     15  872-50-4
+     15  111-76-2
+     15  50-00-0
+     15  901509-83-4
+     15  2022-10-4
+     15  75-21-8
+     14  123-91-1
+     14  106-89-8
+     13  107-13-1
+TOP 15 tableaux MP :
+  4,682  Tableau 1
+    932  Tableau 2
+    183  Tableau 3
+     38  Tableau 4
+     19  Tableau 57
+     15  Tableau 5
+      8  Tableau 42
+      6  Tableau 6
+      6  Tableau 7
+      6  Tableau 69
+      6  Tableau 66
+      5  Tableau 11
+      5  Tableau 8
+      5  Tableau 36
+      5  Tableau 65
+
+=== VECTEURS — stats sur 5 shards échantillonnés ===
+  vectors_00243.parquet: n=200 norme_med=1.0000 cos_med_intra=0.256
+  vectors_00606.parquet: n=200 norme_med=1.0000 cos_med_intra=0.254
+  vectors_00557.parquet: n=200 norme_med=1.0000 cos_med_intra=0.263
+  vectors_00133.parquet: n=200 norme_med=1.0000 cos_med_intra=0.325
+  vectors_00378.parquet: n=200 norme_med=1.0000 cos_med_intra=0.317
+
+NORME L2 (1000 vec) : médiane=1.0000 min=0.9998 max=1.0001 std=0.000015
+COSINE intra-shard (~100K pairs) : médiane=0.282 p25=0.231 p75=0.342
+[DEEP_STATS_DONE]
