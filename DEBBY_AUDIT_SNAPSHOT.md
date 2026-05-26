@@ -757,7 +757,7 @@ Sur ~100 000 paires (5 shards × ~20 000 paires/shard, calculées vectoriellemen
 
 ### 11.3 Audit de couverture (le corpus a-t-il ce qu'il prétend ?)
 
-8. **Couverture des tableaux MP** : pour chaque tableau (86 RG + 65 RA = 151), combien de works pertinents ? (À mesurer après build_lancedb.)
+8. **Couverture des tableaux MP** : pour chaque tableau (**122 RG** dont 20 variantes BIS/TER + **53 RA** dont 8 variantes BIS/TER = **175 tableaux** au total, cf. INRS bdd/mp/listeTableaux.html vérifié 2026-05-27), combien de works pertinents ? (À mesurer après build_lancedb.) — *⚠️ correction 2026-05-27 : le décompte initial "86 RG + 65 RA = 151" omettait les 20 RG BIS/TER (RG 10 BIS, RG 30 BIS/TER pour amiante, etc.) ainsi que les 8 RA BIS/TER ; voir `TABLEAUX_MP_REFERENCE.md` pour la liste exhaustive*.
 9. **Couverture par catégorie SST** : TMS, RPS, CMR, surveillance, aptitude — assez de docs ?
 10. **Sous-représentation revues prestigieuses** : NEJM/JAMA/Lancet/BMJ — combien de % ? Acceptable ?
 11. **Sous-représentation FR** : 128 460 works vrais FR (4,9 %) — assez pour une couverture spécialisée MdT FR ?
