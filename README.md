@@ -19,6 +19,10 @@ debby-audit-snapshot/
 ├── README.md                    ← Ce fichier
 ├── deep_stats.out               ← Sortie brute de l'analyse profonde 2026-05-26
 ├── debby_benchmark_fr.jsonl     ← 49 requêtes FR MdT pour évaluer le retrieval
+├── prompts/                     ← Prompts agentiques copy-paste-ready
+│   ├── README.md                ←   Orientation : quel prompt pour quel usage
+│   ├── PROMPT_1_CHALLENGE_CTF.md         ←   Challenge / Red-team / CTF (28 flags)
+│   └── PROMPT_2_AMELIORATION_CONTINUE.md ←   Roadmap / Architecture / Prospective
 └── scripts/                     ← Code source de l'embed + audits + Couche 2
     ├── embed_or.py              ← Producteur OpenRouter (avec correctif remote_has size>0)
     ├── watchdog_embed.sh        ← Recyclage anti-OOM pendant l'embed
@@ -33,6 +37,16 @@ debby-audit-snapshot/
     ├── layer2.py                ← Couche 2 retrieval — hybride BM25+vecteur, boosts, francisation, pivot CAS
     └── eval_benchmark.py        ← Harness d'éval sur le benchmark FR (49 requêtes)
 ```
+
+## 🎯 Pour les modèles agentiques externes
+
+Si vous arrivez sur ce repo en tant que **modèle agentique** (Kimi Agent Swarm, Antigravity, ChatGPT Agent, etc.), lisez :
+
+- **`prompts/PROMPT_1_CHALLENGE_CTF.md`** si on vous a missionné pour **casser DEBBY** (CTF, red-team, audit profond).
+- **`prompts/PROMPT_2_AMELIORATION_CONTINUE.md`** si on vous a missionné pour **faire évoluer DEBBY** (roadmap, GraphRAG, agentification, fine-tuning).
+- **`prompts/README.md`** pour orienter votre choix.
+
+Les 2 prompts sont co-rédigés par Claude Opus 4.7 + Kimi K2.6 + Codex GPT-5.5 + Gemini 3 Pro (consolidé 2026-05-26).
 
 ## Comment l'auditer
 
