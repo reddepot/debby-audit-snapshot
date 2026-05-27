@@ -1,0 +1,1671 @@
+{
+  "_meta": {
+    "version": "source_chunks_v0.1",
+    "date": "2026-05-27",
+    "kg_version": "kuzu-49sub-v0.2",
+    "corpus_subset": "50 shards / 871 (sub-corpus pilote)",
+    "method": "LanceDB BM25 text LIKE on nom_fr/nom_en/cas, top-5 by keyword match"
+  },
+  "substances_chunks": {
+    "amiante": [
+      {
+        "chunk_id": "6edca01b9938dae4dcebcdb3bdf48583a53ff4c056a4d188d27bedd3054eddcf:1",
+        "work_id": "doi:10.1001/jama.2014.7647",
+        "title": "Investigational Drug May Fight Asbestos-Related Cancer",
+        "venue": "JAMA",
+        "year": 2014,
+        "matched_keyword": "Asbestos"
+      },
+      {
+        "chunk_id": "58066998eedb71cef86a825faec2d293908749470a7130b73d3e46095724274c:1",
+        "work_id": "doi:10.1001/jama.2014.8061",
+        "title": "Circadian Clock Dysregulation Linked to Obesity-Related Diseases",
+        "venue": "JAMA",
+        "year": 2014,
+        "matched_keyword": "Asbestos"
+      },
+      {
+        "chunk_id": "e102e2fbb0dc2913a35d9df5fa1c3ce49678b57a8a6a03590028379d34110211:1",
+        "work_id": "doi:10.1001/jama.2016.13075",
+        "title": "Highlights",
+        "venue": "JAMA",
+        "year": 2017,
+        "matched_keyword": "Asbestos"
+      },
+      {
+        "chunk_id": "2656e5191ecd4fc4b229283b969485aef4fc966cfdc943fec3227914f10322a2:0",
+        "work_id": "doi:10.1001/jama.2017.3178",
+        "title": "Cancer Screenings Lag Behind National Goals Set for 2020",
+        "venue": "JAMA",
+        "year": 2017,
+        "matched_keyword": "Asbestos"
+      },
+      {
+        "chunk_id": "efd7ccf307b4f57b6faeb6789f71b96b8b4d44f10a757ccd894e38853747db80:0",
+        "work_id": "doi:10.1001/jama.299.23.2737-b",
+        "title": "Nanotechnology Hazard?",
+        "venue": "JAMA",
+        "year": 2008,
+        "matched_keyword": "Asbestos"
+      }
+    ],
+    "plomb": [
+      {
+        "chunk_id": "4ae1468fed82691b59561e6b2516a1e803f64c42dff58bcc41054c44ca2c17b4:0",
+        "work_id": "doi:10.1002/3527600418.mb743992e0025",
+        "title": "Lead and its inorganic compounds (inhalable fraction) [MAK Value Documentation, 2009]",
+        "venue": "",
+        "year": 2012,
+        "matched_keyword": "7439-92-1"
+      }
+    ],
+    "benzene": [
+      {
+        "chunk_id": "a107e8ab402b8f17f75c0f50a24fd915f5623d5b27afeeaa52646edafd5bbe27:1",
+        "work_id": "doi:10.1002/0470007257.ch1",
+        "title": "Regulations, Agencies, and Resources",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Benzene"
+      },
+      {
+        "chunk_id": "a3a5a391712c165e91b97b97e4e6a87d17b8fa6663a06f575c592004888a2564:3",
+        "work_id": "doi:10.1002/0470030992.ch41",
+        "title": "Substance Abuse: Inhalant‐Related Disorders",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Benzene"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:42",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Benzene"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:43",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Benzene"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:68",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Benzene"
+      }
+    ],
+    "silice_cristalline": [
+      {
+        "chunk_id": "37f70989d89413b63f5d1650f593565d1c713ac74a1d7e04618ca836b308bacc:3",
+        "work_id": "doi:10.1002/0471435139.hyg014.pub2",
+        "title": "Analytical Methods",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Crystalline silica"
+      },
+      {
+        "chunk_id": "0e8d5c4ed5b81b0e05f56b700b8f692e9d4c19f0077b07ffe8dd94c06bb7984d:30",
+        "work_id": "doi:10.1002/0471435139.hyg076",
+        "title": "Pulmonary Effects of Inhaled Mineral Dusts",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Crystalline silica"
+      },
+      {
+        "chunk_id": "6226eeec5346eae2916e9ccd51a292f768bdaabb15ba0634a49ace5aa31745c3:4",
+        "work_id": "doi:10.1002/0471435139.tox031.pub2",
+        "title": "Aluminum",
+        "venue": "Patty's Toxicology",
+        "year": 2012,
+        "matched_keyword": "Crystalline silica"
+      },
+      {
+        "chunk_id": "585c1219b102a727737cdac6d87122a688aa142fbf7ba489629a13816ed9b5f6:20",
+        "work_id": "doi:10.1002/3527600418.mb0234fasd0067",
+        "title": "Aluminiumsilikatfasern (Refractory Ceramic Fibres, RCF) [MAK value documentation in German language, 2019]",
+        "venue": "",
+        "year": 2019,
+        "matched_keyword": "Crystalline silica"
+      },
+      {
+        "chunk_id": "9bfc5fcf884c543dc102b6ed796f17566be330ff00f647e8ccd31416d4a2cba7:24",
+        "work_id": "doi:10.1002/9780470523674.ch22",
+        "title": "Toxicity of Inhaled Nanomaterials",
+        "venue": "",
+        "year": 2009,
+        "matched_keyword": "Crystalline silica"
+      }
+    ],
+    "isocyanates": [
+      {
+        "chunk_id": "7db61ea387cb608334656a5001fc6b12bc6d307eecd9f4bffe29a8ed489dde9a:13",
+        "work_id": "doi:10.1002/3527600418.mb82206e2313",
+        "title": "Hexamethylene diisocyanate [MAK Value Documentation, 2013b]",
+        "venue": "",
+        "year": 2013,
+        "matched_keyword": "Organic isocyanates"
+      },
+      {
+        "chunk_id": "4e0952572c5b4b95473f35eba25835c40a9e0e512f69d0e1157d12431a7758a0:0",
+        "work_id": "doi:10.1002/ange.201808352",
+        "title": "Liquid‐Phase Synthesis of Boron Isocyanates: Precursors to Boron Nanoparticles",
+        "venue": "Angewandte Chemie",
+        "year": 2018,
+        "matched_keyword": "Organic isocyanates"
+      }
+    ],
+    "formaldehyde": [
+      {
+        "chunk_id": "65bc12060c06ba19f629152b3540b5de4ad4a515e257b80ad67191bef81a422a:1",
+        "work_id": "doi:10.1001/jama.299.7.732",
+        "title": "&lt;emph type=\"ital\"&gt;Portrait of Dr William Thomson&lt;/emph&gt;",
+        "venue": "JAMA",
+        "year": 2008,
+        "matched_keyword": "Formaldehyde"
+      },
+      {
+        "chunk_id": "b9c851908e8083eae5504f7d84e932ac19e881702026aedc235b47fe1d5dd684:5",
+        "work_id": "doi:10.1001/jamainternmed.2013.1569",
+        "title": "A Crossover Study of Noodle Soup Consumption in Melamine Bowls and Total Melamine Excretion in Urine",
+        "venue": "JAMA Internal Medicine",
+        "year": 2013,
+        "matched_keyword": "Formaldehyde"
+      },
+      {
+        "chunk_id": "b9c851908e8083eae5504f7d84e932ac19e881702026aedc235b47fe1d5dd684:6",
+        "work_id": "doi:10.1001/jamainternmed.2013.1569",
+        "title": "A Crossover Study of Noodle Soup Consumption in Melamine Bowls and Total Melamine Excretion in Urine",
+        "venue": "JAMA Internal Medicine",
+        "year": 2013,
+        "matched_keyword": "Formaldehyde"
+      },
+      {
+        "chunk_id": "0a27b08d1fe0baee1e5eb3a36c1896948dd05a5faeae9752f33642d0848e3d43:0",
+        "work_id": "doi:10.1001/jamainternmed.2018.0064",
+        "title": "The Personal Care Products Safety Act",
+        "venue": "JAMA Internal Medicine",
+        "year": 2018,
+        "matched_keyword": "Formaldehyde"
+      },
+      {
+        "chunk_id": "37f70989d89413b63f5d1650f593565d1c713ac74a1d7e04618ca836b308bacc:3",
+        "work_id": "doi:10.1002/0471435139.hyg014.pub2",
+        "title": "Analytical Methods",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Formaldehyde"
+      }
+    ],
+    "chrome_hexavalent": [
+      {
+        "chunk_id": "37f70989d89413b63f5d1650f593565d1c713ac74a1d7e04618ca836b308bacc:3",
+        "work_id": "doi:10.1002/0471435139.hyg014.pub2",
+        "title": "Analytical Methods",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Hexavalent chromium"
+      },
+      {
+        "chunk_id": "8f2e7021761e1a2e23b117d3c53ca02dae3b4bb144d68599bd75e0a0a29881e5:8",
+        "work_id": "doi:10.1002/9780470622728.ch30",
+        "title": "Exposure Reconstruction and Cancer Risk Estimate Derivation",
+        "venue": "",
+        "year": 2010,
+        "matched_keyword": "Hexavalent chromium"
+      },
+      {
+        "chunk_id": "db9166ed408e44c42c9c271e66393aab8cc28fae22c4750bf83fe92b3c6d7d46:6",
+        "work_id": "doi:10.1002/9780470622728.ch4",
+        "title": "Use of Cancer Risk Assessments in Determination of Regulatory Standards",
+        "venue": "",
+        "year": 2010,
+        "matched_keyword": "Hexavalent chromium"
+      },
+      {
+        "chunk_id": "db9166ed408e44c42c9c271e66393aab8cc28fae22c4750bf83fe92b3c6d7d46:11",
+        "work_id": "doi:10.1002/9780470622728.ch4",
+        "title": "Use of Cancer Risk Assessments in Determination of Regulatory Standards",
+        "venue": "",
+        "year": 2010,
+        "matched_keyword": "Hexavalent chromium"
+      },
+      {
+        "chunk_id": "11f654d522abfa6424dcb788135a098e3f1efae3094ad04dda586fa206703ff5:11",
+        "work_id": "doi:10.1002/9781119561026.ch4",
+        "title": "Regulatory Requirements and Their Applicability in Emergency Response",
+        "venue": "",
+        "year": 2020,
+        "matched_keyword": "Hexavalent chromium"
+      }
+    ],
+    "nickel": [],
+    "cadmium": [
+      {
+        "chunk_id": "8f2e7021761e1a2e23b117d3c53ca02dae3b4bb144d68599bd75e0a0a29881e5:44",
+        "work_id": "doi:10.1002/9780470622728.ch30",
+        "title": "Exposure Reconstruction and Cancer Risk Estimate Derivation",
+        "venue": "",
+        "year": 2010,
+        "matched_keyword": "7440-43-9"
+      },
+      {
+        "chunk_id": "818fe695f64c0a23faa81e1d73627650eb7acd3333103b81706db8df9ebf20e0:4",
+        "work_id": "doi:10.1007/978-1-62703-149-3_13",
+        "title": "Occupational Lung Cancer",
+        "venue": "Humana Press eBooks",
+        "year": 2012,
+        "matched_keyword": "7440-43-9"
+      }
+    ],
+    "mercure": [],
+    "arsenic": [
+      {
+        "chunk_id": "61e3c7b71974eff3dba52fc5d8bc7dcde8947c21e8ad1167b36bbe600e7d68f5:0",
+        "work_id": "doi:10.1002/3527600418.mb744038verd0057",
+        "title": "Arsen und anorganische Arsenverbindungen (mit Ausnahme von Arsenwasserstoff) [MAK Value Documentation in German language",
+        "venue": "",
+        "year": 2014,
+        "matched_keyword": "7440-38-2"
+      },
+      {
+        "chunk_id": "818fe695f64c0a23faa81e1d73627650eb7acd3333103b81706db8df9ebf20e0:4",
+        "work_id": "doi:10.1007/978-1-62703-149-3_13",
+        "title": "Occupational Lung Cancer",
+        "venue": "Humana Press eBooks",
+        "year": 2012,
+        "matched_keyword": "7440-38-2"
+      }
+    ],
+    "beryllium": [
+      {
+        "chunk_id": "cb6776f730e5d5d32496f8143a435a6ee110ec4a6d46821bfac7c0f5ca77653f:6",
+        "work_id": "doi:10.1001/archopht.124.4.579",
+        "title": "Green Cataract",
+        "venue": "Archives of Ophthalmology",
+        "year": 2006,
+        "matched_keyword": "Beryllium"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:8",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Beryllium"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:49",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Beryllium"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:52",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Beryllium"
+      },
+      {
+        "chunk_id": "d092f85cca707d92a04e51715b30bd769dcb527088b3debecc09def887bd11d6:0",
+        "work_id": "doi:10.1002/0471435139.tox027.pub2",
+        "title": "Beryllium",
+        "venue": "Patty's Toxicology",
+        "year": 2012,
+        "matched_keyword": "Beryllium"
+      }
+    ],
+    "cobalt": [
+      {
+        "chunk_id": "1a95e04221b338078f828b4975158257043eacbde2cb68466e7535a826366a44:0",
+        "work_id": "doi:10.1001/jama.2013.279402",
+        "title": "Highlights",
+        "venue": "JAMA",
+        "year": 2014,
+        "matched_keyword": "Cobalt"
+      },
+      {
+        "chunk_id": "c368766323544459fb4ad43e0d9997217d299d22d5c8a37af9bfb0acc6789a72:1",
+        "work_id": "doi:10.1001/archdermatol.2010.114",
+        "title": "The Hazards of Moist Toilet Paper",
+        "venue": "Archives of Dermatology",
+        "year": 2010,
+        "matched_keyword": "Cobalt"
+      },
+      {
+        "chunk_id": "56f0b91c035705c6e446d0f5e9cc36ff8b9c0f21c331fc7132af1156b14ea65e:4",
+        "work_id": "doi:10.1001/jama.2019.14247",
+        "title": "Trends in Obesity Among Low-Income Young Children—Reply",
+        "venue": "JAMA",
+        "year": 2019,
+        "matched_keyword": "Cobalt"
+      },
+      {
+        "chunk_id": "ccab92e7fc128631730738bf006145d8372157930b923dbf31826e4c132daf58:0",
+        "work_id": "doi:10.1001/jama.2019.14250",
+        "title": "1 vs 12 Months of Dual Antiplatelet Therapy for Patients After Percutaneous Coronary Intervention—Reply",
+        "venue": "JAMA",
+        "year": 2019,
+        "matched_keyword": "Cobalt"
+      },
+      {
+        "chunk_id": "4bec003d478f4a38f012cf605847d55a0de4d602413e3eef0810377e5622257a:0",
+        "work_id": "doi:10.1001/jamanetworkopen.2021.21758",
+        "title": "Prevalence of Cobalturia Among Adults With Joint Replacements",
+        "venue": "JAMA Network Open",
+        "year": 2021,
+        "matched_keyword": "Cobalt"
+      }
+    ],
+    "manganese": [
+      {
+        "chunk_id": "151ecf617f6562b2a0a01ed649a83b609ecf0c9110148404ff13b8818ae0e4c4:0",
+        "work_id": "doi:10.1001/archneur.64.6.886",
+        "title": "Manganese-Induced Parkinsonism Associated With Methcathinone (Ephedrone) Abuse",
+        "venue": "Archives of Neurology",
+        "year": 2007,
+        "matched_keyword": "Manganese"
+      },
+      {
+        "chunk_id": "eaa0b9ac89d3d37636383893ed79433822f0f74d77cd412de8e47efd386c97cd:3",
+        "work_id": "doi:10.1001/archneurol.2011.84",
+        "title": "Movement Disorders Emergencies Part 1",
+        "venue": "Archives of Neurology",
+        "year": 2011,
+        "matched_keyword": "Manganese"
+      },
+      {
+        "chunk_id": "424bce563c40b125b3a2be767b36ccc7eb7e0b182924c4f1406f5c2c467a86ed:15",
+        "work_id": "doi:10.1002/0470028114.ch4",
+        "title": "Metallic Prions: Mining the Core of Transmissible Spongiform Encephalopathies",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Manganese"
+      },
+      {
+        "chunk_id": "424bce563c40b125b3a2be767b36ccc7eb7e0b182924c4f1406f5c2c467a86ed:16",
+        "work_id": "doi:10.1002/0470028114.ch4",
+        "title": "Metallic Prions: Mining the Core of Transmissible Spongiform Encephalopathies",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Manganese"
+      },
+      {
+        "chunk_id": "424bce563c40b125b3a2be767b36ccc7eb7e0b182924c4f1406f5c2c467a86ed:18",
+        "work_id": "doi:10.1002/0470028114.ch4",
+        "title": "Metallic Prions: Mining the Core of Transmissible Spongiform Encephalopathies",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Manganese"
+      }
+    ],
+    "poussieres_bois": [],
+    "hap": [
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:19",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Polycyclic aromatic hydrocarbons"
+      },
+      {
+        "chunk_id": "8267528715b596274e364e050c3abb8c65f1ed98d7632437678d81f18893ff17:8",
+        "work_id": "doi:10.1002/14356007.o27_o16",
+        "title": "Toxicology, 3. Evaluation of Toxic Effects",
+        "venue": "Ullmann's Encyclopedia of Industrial Chemistry",
+        "year": 2011,
+        "matched_keyword": "Polycyclic aromatic hydrocarbons"
+      },
+      {
+        "chunk_id": "b607e0ce58bedc0596467bc54d8c510646f7bc50be278eeef8d6b03006076ce7:6",
+        "work_id": "doi:10.1002/3527608109.ch19",
+        "title": "Cancer and Gene Variants in Enzymes Metabolizing Dietary Xenobiotics",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Polycyclic aromatic hydrocarbons"
+      },
+      {
+        "chunk_id": "78a2cd6f00caf3d6364f78aa70fb58d12205580f535ef705d59fde0c9b89bbb7:4",
+        "work_id": "doi:10.1002/9780470025079.chap28.pub2",
+        "title": "Dietary Genotoxins and Cancer",
+        "venue": "The Cancer Handbook",
+        "year": 2007,
+        "matched_keyword": "Polycyclic aromatic hydrocarbons"
+      },
+      {
+        "chunk_id": "e931c29710c30022beb572cf2887650ebbaf0fda035ec3dc02533ddf75c13345:9",
+        "work_id": "doi:10.1002/9780470025079.chap29.pub2",
+        "title": "Tobacco Use and Cancer",
+        "venue": "The Cancer Handbook",
+        "year": 2007,
+        "matched_keyword": "Polycyclic aromatic hydrocarbons"
+      }
+    ],
+    "chlorure_vinyle": [
+      {
+        "chunk_id": "4fc35cfc71d37c8f1ce8192c9aba7d6f0fcaff7621b0ae5239fa7c12c4ed8c2b:14",
+        "work_id": "doi:10.1002/0471440264.pst388.pub2",
+        "title": "Vinyl Fluoride Polymers (PVF)",
+        "venue": "Encyclopedia of Polymer Science and Technology",
+        "year": 2011,
+        "matched_keyword": "Vinyl chloride"
+      },
+      {
+        "chunk_id": "8267528715b596274e364e050c3abb8c65f1ed98d7632437678d81f18893ff17:8",
+        "work_id": "doi:10.1002/14356007.o27_o16",
+        "title": "Toxicology, 3. Evaluation of Toxic Effects",
+        "venue": "Ullmann's Encyclopedia of Industrial Chemistry",
+        "year": 2011,
+        "matched_keyword": "Vinyl chloride"
+      },
+      {
+        "chunk_id": "e931c29710c30022beb572cf2887650ebbaf0fda035ec3dc02533ddf75c13345:11",
+        "work_id": "doi:10.1002/9780470025079.chap29.pub2",
+        "title": "Tobacco Use and Cancer",
+        "venue": "The Cancer Handbook",
+        "year": 2007,
+        "matched_keyword": "Vinyl chloride"
+      },
+      {
+        "chunk_id": "a4dafa4151bb7496c74de7a443f659ce7edd5a8f975b6ddccff5938992f8006b:5",
+        "work_id": "doi:10.1002/9780470025079.chap30.pub2",
+        "title": "Occupational Causes of Cancer",
+        "venue": "The Cancer Handbook",
+        "year": 2007,
+        "matched_keyword": "Vinyl chloride"
+      },
+      {
+        "chunk_id": "a628f99445eee5505575f71d873be6bb54114643ba88b995c2f29e8badd7459c:39",
+        "work_id": "doi:10.1002/9780470285251.ch32",
+        "title": "Immunotoxicity",
+        "venue": "",
+        "year": 2007,
+        "matched_keyword": "Vinyl chloride"
+      }
+    ],
+    "trichloroethylene": [
+      {
+        "chunk_id": "4a79a26c700c85d6cb6dd5d0c038ed7edaaac458b9119f68bcd0d505a8579566:34",
+        "work_id": "doi:10.1002/0470029528.ch11",
+        "title": "Delirium, Dementia, and Amnestic Disorders",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Trichloroethylene"
+      },
+      {
+        "chunk_id": "da45189f95dc142618c670d1304bb6a80ad1468616dc2cb491eca52ad676ac49:31",
+        "work_id": "doi:10.1002/0470030992.ch32",
+        "title": "Delirium and Dementia",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Trichloroethylene"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:27",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Trichloroethylene"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:42",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Trichloroethylene"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:10",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Trichloroethylene"
+      }
+    ],
+    "toluene": [
+      {
+        "chunk_id": "0a27b08d1fe0baee1e5eb3a36c1896948dd05a5faeae9752f33642d0848e3d43:0",
+        "work_id": "doi:10.1001/jamainternmed.2018.0064",
+        "title": "The Personal Care Products Safety Act",
+        "venue": "JAMA Internal Medicine",
+        "year": 2018,
+        "matched_keyword": "Toluene"
+      },
+      {
+        "chunk_id": "4a79a26c700c85d6cb6dd5d0c038ed7edaaac458b9119f68bcd0d505a8579566:34",
+        "work_id": "doi:10.1002/0470029528.ch11",
+        "title": "Delirium, Dementia, and Amnestic Disorders",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Toluene"
+      },
+      {
+        "chunk_id": "da45189f95dc142618c670d1304bb6a80ad1468616dc2cb491eca52ad676ac49:31",
+        "work_id": "doi:10.1002/0470030992.ch32",
+        "title": "Delirium and Dementia",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Toluene"
+      },
+      {
+        "chunk_id": "a3a5a391712c165e91b97b97e4e6a87d17b8fa6663a06f575c592004888a2564:3",
+        "work_id": "doi:10.1002/0470030992.ch41",
+        "title": "Substance Abuse: Inhalant‐Related Disorders",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Toluene"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:27",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Toluene"
+      }
+    ],
+    "xylene": [
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:10",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Xylenes"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:20",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Xylenes"
+      },
+      {
+        "chunk_id": "332326eb6667f0cf81c6f7ee4569155f6848d19103a824945b73e034cc9e3c86:9",
+        "work_id": "doi:10.1002/0471142727.mb1406s81",
+        "title": "Immunohistochemistry",
+        "venue": "Current Protocols in Molecular Biology",
+        "year": 2008,
+        "matched_keyword": "Xylenes"
+      },
+      {
+        "chunk_id": "4e99959cd6ff8df4494527979cc38ae7f451db3ed5c18dcdb1ccf55fd26b7722:4",
+        "work_id": "doi:10.1002/0471142956.cy0304s36",
+        "title": "Safe Use of Hazardous Chemicals",
+        "venue": "Current Protocols in Cytometry",
+        "year": 2006,
+        "matched_keyword": "Xylenes"
+      },
+      {
+        "chunk_id": "af876bb704ce9dad65f77d3babc22d6e357d3e4c60f36ea4c213d46e7ef3cc14:11",
+        "work_id": "doi:10.1002/9780470061589.fsa404",
+        "title": "Toxicology: Initial Testing",
+        "venue": "Wiley Encyclopedia of Forensic Science",
+        "year": 2009,
+        "matched_keyword": "Xylenes"
+      }
+    ],
+    "nhexane": [
+      {
+        "chunk_id": "4a79a26c700c85d6cb6dd5d0c038ed7edaaac458b9119f68bcd0d505a8579566:34",
+        "work_id": "doi:10.1002/0470029528.ch11",
+        "title": "Delirium, Dementia, and Amnestic Disorders",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "n-Hexane"
+      },
+      {
+        "chunk_id": "da45189f95dc142618c670d1304bb6a80ad1468616dc2cb491eca52ad676ac49:31",
+        "work_id": "doi:10.1002/0470030992.ch32",
+        "title": "Delirium and Dementia",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "n-Hexane"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:10",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "n-Hexane"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:19",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "n-Hexane"
+      },
+      {
+        "chunk_id": "579df724cd773b208f8683b483d4595b8d60106249ed2401b6418bd1dcfe360b:9",
+        "work_id": "doi:10.1002/0471435139.hyg096",
+        "title": "Chemical Protective Clothing",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "n-Hexane"
+      }
+    ],
+    "meke_methyl_ethyl_cetone": [
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:19",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Methyl ethyl ketone (MEK)"
+      },
+      {
+        "chunk_id": "8f6d814a3054bde2f3de4482667b238647b7b9c2d51ffe64276735407a3d9b40:2",
+        "work_id": "doi:10.1002/9781118105955.ch45",
+        "title": "<i>n</i>‐Hexane",
+        "venue": "",
+        "year": 2012,
+        "matched_keyword": "Methyl ethyl ketone (MEK)"
+      }
+    ],
+    "sulfure_carbone": [
+      {
+        "chunk_id": "eaa0b9ac89d3d37636383893ed79433822f0f74d77cd412de8e47efd386c97cd:3",
+        "work_id": "doi:10.1001/archneurol.2011.84",
+        "title": "Movement Disorders Emergencies Part 1",
+        "venue": "Archives of Neurology",
+        "year": 2011,
+        "matched_keyword": "Carbon disulfide"
+      },
+      {
+        "chunk_id": "c6adb05d11a46631b1cb161473d78f48c5cbc836268e26608c10a79a0580e16e:42",
+        "work_id": "doi:10.1002/0471435139.hyg040.pub2",
+        "title": "Pharmacokinetics and Unusual Work Schedules",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Carbon disulfide"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:10",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Carbon disulfide"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:18",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Carbon disulfide"
+      },
+      {
+        "chunk_id": "97c6c54115b9a8f9285ca7b85123828b08983ca5b55e9936b97ce90c3fc1b3c6:23",
+        "work_id": "doi:10.1002/0471435139.hyg063.pub2",
+        "title": "Health and Safety Factors in Designing an Industrial Hygiene Laboratory",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Carbon disulfide"
+      }
+    ],
+    "dichloromethane": [
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:18",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Dichloromethane"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:19",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Dichloromethane"
+      },
+      {
+        "chunk_id": "aaa0153e0228cbd466821675b043c94e1d86b3ea732b61a4462241d5aa714bec:22",
+        "work_id": "doi:10.1002/0471435139.hyg042.pub2",
+        "title": "Biological Monitoring of Exposure to Industrial Chemicals",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Dichloromethane"
+      },
+      {
+        "chunk_id": "579df724cd773b208f8683b483d4595b8d60106249ed2401b6418bd1dcfe360b:9",
+        "work_id": "doi:10.1002/0471435139.hyg096",
+        "title": "Chemical Protective Clothing",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Dichloromethane"
+      },
+      {
+        "chunk_id": "579df724cd773b208f8683b483d4595b8d60106249ed2401b6418bd1dcfe360b:11",
+        "work_id": "doi:10.1002/0471435139.hyg096",
+        "title": "Chemical Protective Clothing",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Dichloromethane"
+      }
+    ],
+    "organophosphores": [
+      {
+        "chunk_id": "42a7c636f6ffea85c36a15921e0ce4b8564750ca30ed0ae935ca5405f1695c09:1",
+        "work_id": "doi:10.1001/virtualmentor.2006.8.11.ccas3-0611",
+        "title": "Clinical Awareness of Occupation-Related Toxic Exposure",
+        "venue": "The AMA Journal of Ethic",
+        "year": 2006,
+        "matched_keyword": "Organophosphate pesticides"
+      },
+      {
+        "chunk_id": "9200504445cdfe21a4fc294ebdcdaf17436fdbdb0f248e8bcccd06b9d4b1c5eb:1",
+        "work_id": "doi:10.1002/9780470640500.ch26",
+        "title": "Epidemiological Studies of Anticholinesterase Pesticide Poisoning in China",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Organophosphate pesticides"
+      },
+      {
+        "chunk_id": "d5d7f92be5dfc619f4710307739c2a2f7a9a6b19f1a784200807da757a17a255:9",
+        "work_id": "doi:10.1002/9780470640500.ch28",
+        "title": "Epidemiological Studies of Anticholinesterase Pesticide Poisoning in Greece",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Organophosphate pesticides"
+      },
+      {
+        "chunk_id": "41ed5f650a08b407754559e7eb941884110a7f2f7d3a18cd1782fbf6b15a58d9:5",
+        "work_id": "doi:10.1002/9781118102138.ch10",
+        "title": "Methods for Assessing Neurotoxicity in Zebrafish",
+        "venue": "Zebrafish",
+        "year": 2011,
+        "matched_keyword": "Organophosphate pesticides"
+      },
+      {
+        "chunk_id": "a850a5acda9fb47efd40ab33ed62ace298e74a69a55c3196754ac1135dfcc88c:4",
+        "work_id": "doi:10.1002/9781118347867.ch8",
+        "title": "Role of the Laboratory in Detecting Other Poisoning, Including Pesticides, Ethylene Glycol, and Methanol",
+        "venue": "",
+        "year": 2012,
+        "matched_keyword": "Organophosphate pesticides"
+      }
+    ],
+    "glyphosate": [
+      {
+        "chunk_id": "2100f86dc0fee53be6c3aac7c6fddfd9ec3d733908f7cd77bad4b634ed87c307:0",
+        "work_id": "doi:10.1001/jama.2016.13366",
+        "title": "Highlights",
+        "venue": "JAMA",
+        "year": 2017,
+        "matched_keyword": "Glyphosate"
+      },
+      {
+        "chunk_id": "ce1e70d3faf515194946ccd393a6f99e1f6818b9cd215d761c744c991e7e0f9f:2",
+        "work_id": "doi:10.1002/9780470640500.ch33",
+        "title": "Epidemiological Studies of Anticholinesterase Pesticide Poisoning in Korea",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Glyphosate"
+      },
+      {
+        "chunk_id": "ce1e70d3faf515194946ccd393a6f99e1f6818b9cd215d761c744c991e7e0f9f:3",
+        "work_id": "doi:10.1002/9780470640500.ch33",
+        "title": "Epidemiological Studies of Anticholinesterase Pesticide Poisoning in Korea",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Glyphosate"
+      },
+      {
+        "chunk_id": "8ef59f4f890ccc4e70ec138ef87d6564617e857f50cd95860b22edf07728a473:3",
+        "work_id": "doi:10.1002/9780470640500.ch38",
+        "title": "Epidemiological Studies of Anticholinesterase Pesticide Poisoning in Thailand",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Glyphosate"
+      },
+      {
+        "chunk_id": "8ef59f4f890ccc4e70ec138ef87d6564617e857f50cd95860b22edf07728a473:8",
+        "work_id": "doi:10.1002/9780470640500.ch38",
+        "title": "Epidemiological Studies of Anticholinesterase Pesticide Poisoning in Thailand",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Glyphosate"
+      }
+    ],
+    "latex": [
+      {
+        "chunk_id": "dfa004f35cd7f6336067d9fb2fd87130101e2dedcecd9d3f13d3fb0464246893:33",
+        "work_id": "doi:10.1002/14651858.cd003087.pub2",
+        "title": "Double gloving to reduce surgical cross-infection",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2006,
+        "matched_keyword": "Natural rubber latex"
+      },
+      {
+        "chunk_id": "76f42e6251f42490cbe51dc12d2ebdafac687835154e7ab0ac74bffe07d1fc6e:1",
+        "work_id": "doi:10.1002/14651858.cd009240",
+        "title": "Specific immunotherapy for latex allergy",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2011,
+        "matched_keyword": "Natural rubber latex"
+      },
+      {
+        "chunk_id": "76f42e6251f42490cbe51dc12d2ebdafac687835154e7ab0ac74bffe07d1fc6e:3",
+        "work_id": "doi:10.1002/14651858.cd009240",
+        "title": "Specific immunotherapy for latex allergy",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2011,
+        "matched_keyword": "Natural rubber latex"
+      },
+      {
+        "chunk_id": "211c393cc450b260ec257d8721ebb3a3fd40957b1bcf4e6c9bd22fbbf2ac3c3e:2",
+        "work_id": "doi:10.1002/9781118609125.ch32",
+        "title": "Latex Allergy",
+        "venue": "",
+        "year": 2015,
+        "matched_keyword": "Natural rubber latex"
+      },
+      {
+        "chunk_id": "a544704789f84a9aaff8093f8b8f6f7044b33e1b5bdb3686a4d389d53a8279b2:17",
+        "work_id": "doi:10.1002/9781444329629.ch9",
+        "title": "Occupational Pulmonary Disease",
+        "venue": "",
+        "year": 2011,
+        "matched_keyword": "Natural rubber latex"
+      }
+    ],
+    "persulfates": [],
+    "farines": [
+      {
+        "chunk_id": "6b5c4f2c59bad055540dc057f32d110430d9fd53f37adaf23152e8b5add01ce1:4",
+        "work_id": "doi:10.1002/jcp.27780",
+        "title": "Cardiovascular complications and related risk factors underlying opium consumption",
+        "venue": "Journal of Cellular Physiology",
+        "year": 2018,
+        "matched_keyword": "farines"
+      },
+      {
+        "chunk_id": "6b5c4f2c59bad055540dc057f32d110430d9fd53f37adaf23152e8b5add01ce1:9",
+        "work_id": "doi:10.1002/jcp.27780",
+        "title": "Cardiovascular complications and related risk factors underlying opium consumption",
+        "venue": "Journal of Cellular Physiology",
+        "year": 2018,
+        "matched_keyword": "farines"
+      }
+    ],
+    "agents_biologiques_groupe2_3": [
+      {
+        "chunk_id": "231933a4f6cf80bd4aad1e1d2d35e5fd55bad066bf02add7ef6379c90d7df1f5:4",
+        "work_id": "doi:10.1001/jama.2012.323",
+        "title": "Coronary Heart Disease Risk Factors and Mortality",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "agents"
+      },
+      {
+        "chunk_id": "164c90446c32e7a96a390764d0409f7d24a65d00819410da85aeb9851b6106a2:0",
+        "work_id": "doi:10.1001/jama.2012.34011",
+        "title": "Measured Drug Effect and Cardiovascular Outcomes in Patients Receiving Platelet P2Y<sub>12</sub>Receptor Antagonists",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "agents"
+      },
+      {
+        "chunk_id": "b91991c1d82a1a1666c6c6524e377f91f0ee171f5492b5fda68c9e4bfa2541f7:9",
+        "work_id": "doi:10.1001/jama.2012.3466",
+        "title": "Diagnosis and Treatment of Depression in Adults With Comorbid Medical Conditions",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "agents"
+      },
+      {
+        "chunk_id": "b91991c1d82a1a1666c6c6524e377f91f0ee171f5492b5fda68c9e4bfa2541f7:10",
+        "work_id": "doi:10.1001/jama.2012.3466",
+        "title": "Diagnosis and Treatment of Depression in Adults With Comorbid Medical Conditions",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "agents"
+      },
+      {
+        "chunk_id": "b91991c1d82a1a1666c6c6524e377f91f0ee171f5492b5fda68c9e4bfa2541f7:11",
+        "work_id": "doi:10.1001/jama.2012.3466",
+        "title": "Diagnosis and Treatment of Depression in Adults With Comorbid Medical Conditions",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "agents"
+      }
+    ],
+    "rayonnements_ionisants": [
+      {
+        "chunk_id": "5f7473b32619be755b0054be8c21c9fbe1bafb853eeeeb26e5cb9af0a1368c85:1",
+        "work_id": "doi:10.1001/jama.2009.697",
+        "title": "Exercise Capacity and Left Ventricular Function",
+        "venue": "JAMA",
+        "year": 2009,
+        "matched_keyword": "Ionizing radiation"
+      },
+      {
+        "chunk_id": "bbeb81571113f3de905a634407eca9a61a80b2c066ab7514998deeb1d765fead:1",
+        "work_id": "doi:10.1001/jamasurg.2023.3863",
+        "title": "Environmental Impact Assessment of Reusable and Disposable Surgical Head Covers",
+        "venue": "JAMA Surgery",
+        "year": 2023,
+        "matched_keyword": "Ionizing radiation"
+      },
+      {
+        "chunk_id": "92561e33e050b7d1513adbdd447d7d678ea8cfbdbac6d32a9af7b5eb69178cfe:21",
+        "work_id": "doi:10.1002/047134608x.w5202.pub2",
+        "title": "External Radiation Dosimetry",
+        "venue": "Wiley Encyclopedia of Electrical and Electronics Engineering",
+        "year": 2015,
+        "matched_keyword": "Ionizing radiation"
+      },
+      {
+        "chunk_id": "72c7e51ccf72a21fce41534de1524de239ae71593c6daeaad3d5c6ed1da5b6e1:0",
+        "work_id": "doi:10.1002/0471435139.hyg021.pub2",
+        "title": "Ionizing Radiation",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Ionizing radiation"
+      },
+      {
+        "chunk_id": "72c7e51ccf72a21fce41534de1524de239ae71593c6daeaad3d5c6ed1da5b6e1:28",
+        "work_id": "doi:10.1002/0471435139.hyg021.pub2",
+        "title": "Ionizing Radiation",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Ionizing radiation"
+      }
+    ],
+    "uv_naturels_artificiels": [
+      {
+        "chunk_id": "b3e96c525bf294f1e877804590d2066350e061a9e9e8a6a5dcaa590724fa1eca:1",
+        "work_id": "doi:10.1001/jama.2013.282373",
+        "title": "Utah update – SNAP and program advancements",
+        "venue": "JAMA",
+        "year": 2008,
+        "matched_keyword": "UV radiation"
+      },
+      {
+        "chunk_id": "4818ec5cac4a3f1a3dc409f4a5b7259383c3201e27580db3023f00eebbbe4dff:0",
+        "work_id": "doi:10.1001/jama.2010.526",
+        "title": "Heart Repair",
+        "venue": "JAMA",
+        "year": 2010,
+        "matched_keyword": "UV radiation"
+      },
+      {
+        "chunk_id": "4818ec5cac4a3f1a3dc409f4a5b7259383c3201e27580db3023f00eebbbe4dff:1",
+        "work_id": "doi:10.1001/jama.2010.526",
+        "title": "Heart Repair",
+        "venue": "JAMA",
+        "year": 2010,
+        "matched_keyword": "UV radiation"
+      },
+      {
+        "chunk_id": "156084fe5c56f41640543bef4f82c6e3e59d9808b482a6715f7db2748796015a:2",
+        "work_id": "doi:10.1001/archderm.144.10.1375",
+        "title": "Three Roots of Melanoma",
+        "venue": "Archives of Dermatology",
+        "year": 2008,
+        "matched_keyword": "UV radiation"
+      },
+      {
+        "chunk_id": "fec7f08a0d58ce1e190c29666fa00805310bfb3a85b94cbe84e83f98a8e324cc:2",
+        "work_id": "doi:10.1001/archdermatol.2008.565",
+        "title": "Oral Contraceptive and D-Dimer Level",
+        "venue": "Archives of Dermatology",
+        "year": 2009,
+        "matched_keyword": "UV radiation"
+      }
+    ],
+    "lasers": [
+      {
+        "chunk_id": "ad5f5f1b94f73a95e07da81ce82ac3b74a56bf03a7bcdcb2f7ae553fcff8467e:0",
+        "work_id": "doi:10.1002/9780470522226.ch19",
+        "title": "Topical and Systemic Drug Delivery Systems for Targeted Therapy",
+        "venue": "",
+        "year": 2009,
+        "matched_keyword": "Laser radiation"
+      },
+      {
+        "chunk_id": "15257a1a2abcc5f130c8c083039da646eff9a46f7f72927871ea1d5dfc8657c2:5",
+        "work_id": "doi:10.1002/9781119185031.ch8",
+        "title": "Laser Induced Thin Film Debonding for Micro‐Device Fabrication Applications",
+        "venue": "Laser Technology",
+        "year": 2018,
+        "matched_keyword": "Laser radiation"
+      },
+      {
+        "chunk_id": "15257a1a2abcc5f130c8c083039da646eff9a46f7f72927871ea1d5dfc8657c2:7",
+        "work_id": "doi:10.1002/9781119185031.ch8",
+        "title": "Laser Induced Thin Film Debonding for Micro‐Device Fabrication Applications",
+        "venue": "Laser Technology",
+        "year": 2018,
+        "matched_keyword": "Laser radiation"
+      },
+      {
+        "chunk_id": "a77694723b071e215569ba5595e3c236f043f6d12778d5c531823aaf4dcd0157:1",
+        "work_id": "doi:10.1002/9781119245193.ch144",
+        "title": "Laser in Benign Prostatic Hyperplasia Treatment",
+        "venue": "",
+        "year": 2018,
+        "matched_keyword": "Laser radiation"
+      },
+      {
+        "chunk_id": "a77694723b071e215569ba5595e3c236f043f6d12778d5c531823aaf4dcd0157:3",
+        "work_id": "doi:10.1002/9781119245193.ch144",
+        "title": "Laser in Benign Prostatic Hyperplasia Treatment",
+        "venue": "",
+        "year": 2018,
+        "matched_keyword": "Laser radiation"
+      }
+    ],
+    "champs_electromagnetiques": [
+      {
+        "chunk_id": "3a04149d9f8186e4419a7ac48be4f378290f894b4bff48749283fc91d4c3f183:0",
+        "work_id": "doi:10.1001/jama.2011.669",
+        "title": "Cell Phone Activation and Brain Glucose Metabolism",
+        "venue": "JAMA",
+        "year": 2011,
+        "matched_keyword": "Electromagnetic fields"
+      },
+      {
+        "chunk_id": "194bb005632f02c54aea344864afaa457f74e9d08cecc1d3b6368a645a6aff01:4",
+        "work_id": "doi:10.1002/9780471740360.ebs1482",
+        "title": "Electrocardiogram (ECG) Signal Processing",
+        "venue": "Wiley Encyclopedia of Biomedical Engineering",
+        "year": 2006,
+        "matched_keyword": "Electromagnetic fields"
+      },
+      {
+        "chunk_id": "fd2eec6d85abc59e195e25ea07c044356c695ac093b9b16f0786c03158583f4d:2",
+        "work_id": "doi:10.1002/9781118893715.ch15",
+        "title": "Safety Issues in Biomedical Telemetry",
+        "venue": "",
+        "year": 2014,
+        "matched_keyword": "Electromagnetic fields"
+      },
+      {
+        "chunk_id": "93629a7b1d248a6e282e4be6eb8d62e7a798116f13ec263ea61d1d01805b7dc0:17",
+        "work_id": "doi:10.1002/9781119220190.ch36",
+        "title": "Laser Therapy and Multimodal Equine Rehabilitation",
+        "venue": "",
+        "year": 2017,
+        "matched_keyword": "Electromagnetic fields"
+      },
+      {
+        "chunk_id": "401dd2062a7b78d169bac21d3144916a623438a0be000f950c12ab209c9a5b70:20",
+        "work_id": "doi:10.1002/9781119284673.ch29",
+        "title": "Preventive Surveillance Programs",
+        "venue": "",
+        "year": 2017,
+        "matched_keyword": "Electromagnetic fields"
+      }
+    ],
+    "hyperbarie": [],
+    "bruit": [
+      {
+        "chunk_id": "c35c3ca25b2321bf2a05971ce79092bb3d39645f81419571bc67391b349f4b27:62",
+        "work_id": "doi:10.1002/14651858.cd006396",
+        "title": "Interventions to prevent occupational noise induced hearing loss",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2007,
+        "matched_keyword": "Occupational noise"
+      },
+      {
+        "chunk_id": "4eaf5c658979dab3ba7fe87a6965d3d33da1d71311b68eecab82b4a858fea737:9",
+        "work_id": "doi:10.1002/9781118670903.ch8",
+        "title": "Instrumentation and Surgical Technique",
+        "venue": "",
+        "year": 2013,
+        "matched_keyword": "Occupational noise"
+      },
+      {
+        "chunk_id": "7956d71121407a6bfb458e3d898fbe9a134a61f6c00994c06730390f634427f3:8",
+        "work_id": "doi:10.1002/hbm.25016",
+        "title": "Masking effects on subjective annoyance to aircraft flyover noise: An <scp>fMRI</scp> study",
+        "venue": "Human Brain Mapping",
+        "year": 2020,
+        "matched_keyword": "Occupational noise"
+      },
+      {
+        "chunk_id": "cab8c5edb2a4e714ac5ae22ff82ca90c063d4032cc449dafa28bd91d2dc35e1a:0",
+        "work_id": "doi:10.1001/jama.2012.437",
+        "title": "Differential Diagnosis in Primary Care",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "bruit"
+      },
+      {
+        "chunk_id": "9597b32f67f3ac56d72acd8a21aa6690c5cd986ce7d11dd18b36ddf48024a8c4:2",
+        "work_id": "doi:10.1001/archsurg.142.12.1206",
+        "title": "Emergency Parotidectomy for Penetrating Zone III Neck Trauma",
+        "venue": "Archives of Surgery",
+        "year": 2007,
+        "matched_keyword": "bruit"
+      }
+    ],
+    "vibrations_main_bras": [
+      {
+        "chunk_id": "01adc2880926ea946181f74a54bb8d4dba868297b6e270a426d4049e6a8e64cb:70",
+        "work_id": "doi:10.1002/9781118441213.rtd0124",
+        "title": "Mechanical Injury to the Skin",
+        "venue": "",
+        "year": 2016,
+        "matched_keyword": "Hand-arm vibration"
+      },
+      {
+        "chunk_id": "d155711ea36577e60c9b6da028885c2062d4dfa340f2abf022089047413c0f95:32",
+        "work_id": "doi:10.1002/9781119105701.ch8",
+        "title": "The Wrist and Hand",
+        "venue": "",
+        "year": 2015,
+        "matched_keyword": "Hand-arm vibration"
+      },
+      {
+        "chunk_id": "1e2e8e1ab88ee2bb8434e310d5e9735dbc680beb655f0fac8ec80ab02122e47c:0",
+        "work_id": "doi:10.1002/psb.1590",
+        "title": "Assessment and management of Raynaud's phenomenon",
+        "venue": "Prescriber",
+        "year": 2017,
+        "matched_keyword": "Hand-arm vibration"
+      },
+      {
+        "chunk_id": "8f1b4a3f66e2c8f40a9a728c5b18c9f2ec5113ef1d09eeb4c8b121bc5443887f:0",
+        "work_id": "doi:10.1001/jama.2015.14009",
+        "title": "One More Option for Advanced Colorectal Cancer",
+        "venue": "JAMA",
+        "year": 2015,
+        "matched_keyword": "vibrations"
+      },
+      {
+        "chunk_id": "e345e4ee56ecafe28e4c88837766bea0ead0cc08a5438186a24f95a1f72146cc:1",
+        "work_id": "doi:10.1001/jama.2017.12325",
+        "title": "Queries and Minor Notes",
+        "venue": "JAMA",
+        "year": 2018,
+        "matched_keyword": "vibrations"
+      }
+    ],
+    "vibrations_corps_entier": [
+      {
+        "chunk_id": "6ad3eecad164d17fcc6359d4eee78d98f59083de049a62891ec4498a1324dd18:12",
+        "work_id": "doi:10.1002/0471435139.hyg108",
+        "title": "Occupational Ergonomics: Past, Present, and Future",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Whole-body vibration"
+      },
+      {
+        "chunk_id": "8ebc5cdfa8d616112eb1adad15dacde09bb4669fb1ecd6d9c877fc7952dcfd96:22",
+        "work_id": "doi:10.1002/14651858.cd008728",
+        "title": "Interventions for preventing falls in people after stroke",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2010,
+        "matched_keyword": "Whole-body vibration"
+      },
+      {
+        "chunk_id": "02ffd8946266ed6870941bb472a758ad315a0c43d40f0f97b06bc7aff060b005:0",
+        "work_id": "doi:10.1002/14651858.cd009097",
+        "title": "Whole-body vibration training for patients with neurodegenerative disease",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2011,
+        "matched_keyword": "Whole-body vibration"
+      },
+      {
+        "chunk_id": "02ffd8946266ed6870941bb472a758ad315a0c43d40f0f97b06bc7aff060b005:1",
+        "work_id": "doi:10.1002/14651858.cd009097",
+        "title": "Whole-body vibration training for patients with neurodegenerative disease",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2011,
+        "matched_keyword": "Whole-body vibration"
+      },
+      {
+        "chunk_id": "02ffd8946266ed6870941bb472a758ad315a0c43d40f0f97b06bc7aff060b005:2",
+        "work_id": "doi:10.1002/14651858.cd009097",
+        "title": "Whole-body vibration training for patients with neurodegenerative disease",
+        "venue": "Cochrane Database of Systematic Reviews",
+        "year": 2011,
+        "matched_keyword": "Whole-body vibration"
+      }
+    ],
+    "manutention_manuelle": [
+      {
+        "chunk_id": "24fe561f21e463b080a6c7397467c1fb3f97104b370b60ef13ed3272b88e6c96:4",
+        "work_id": "doi:10.1002/0470048204.ch57",
+        "title": "Human Factors and Ergonomics Standards",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Manual handling"
+      },
+      {
+        "chunk_id": "dde2ceac1b043244e98eea6cd4cd7ea84ea2cfbbf679ea9a67171c8d940a65b9:7",
+        "work_id": "doi:10.1002/9780470697665.ch6a",
+        "title": "Scenarios C: Lasting Powers of Attorney",
+        "venue": "",
+        "year": 2008,
+        "matched_keyword": "Manual handling"
+      },
+      {
+        "chunk_id": "58a80ef41a7362e9621f5df5dfc0264da095b12dd5b8c5d5a6470f4a14a9ed87:0",
+        "work_id": "doi:10.1002/9780470723982.ch3",
+        "title": "Laboratory Management",
+        "venue": "",
+        "year": 2008,
+        "matched_keyword": "Manual handling"
+      },
+      {
+        "chunk_id": "d3f806c9ea744289c6eecfd90ec9476bffb6627f66daf9d56e16a365311be093:17",
+        "work_id": "doi:10.1002/9780470988213.ch7",
+        "title": "Vocational Rehabilitation for Specific Health Conditions and Disabilities",
+        "venue": "",
+        "year": 2007,
+        "matched_keyword": "Manual handling"
+      },
+      {
+        "chunk_id": "82b0965b99fb4b8808fbd5fdf35728a930d3664ab6ae37379a9b23590e1358e1:36",
+        "work_id": "doi:10.1002/9780470775110",
+        "title": "Practice Nurse Handbook",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Manual handling"
+      }
+    ],
+    "postures_contraignantes": [
+      {
+        "chunk_id": "76ff9ec0a14179ce913e272120af8c858da6ffb294715e0bc266c1d0660480af:21",
+        "work_id": "doi:10.1002/0471435139.hyg084",
+        "title": "Real‐Time Assessment of Air Contaminants Using Video Exposure Monitoring Methods and Techniques",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Awkward postures"
+      },
+      {
+        "chunk_id": "5e5e25161080eb958501d1390a13683190cdb6fed479b7036d30958410de3045:8",
+        "work_id": "doi:10.1002/9781118814239.app3",
+        "title": "Appendix C: Tools",
+        "venue": "Occupational Ergonomics",
+        "year": 2016,
+        "matched_keyword": "Awkward postures"
+      },
+      {
+        "chunk_id": "be9dbc498cd596eaa4165c2a93690da0688addb4e1396a95cc2360e6b3cd6ae3:7",
+        "work_id": "doi:10.1002/9781118814239.ch2",
+        "title": "The Basics of Ergonomics",
+        "venue": "Occupational Ergonomics",
+        "year": 2016,
+        "matched_keyword": "Awkward postures"
+      },
+      {
+        "chunk_id": "06b20083b6c37fac97e0d2f7ad4a81ef5966bb24488cab7106a21553426e5e5f:2",
+        "work_id": "doi:10.1002/9781118814239.ch9",
+        "title": "Hand Tools",
+        "venue": "Occupational Ergonomics",
+        "year": 2016,
+        "matched_keyword": "Awkward postures"
+      },
+      {
+        "chunk_id": "06b20083b6c37fac97e0d2f7ad4a81ef5966bb24488cab7106a21553426e5e5f:3",
+        "work_id": "doi:10.1002/9781118814239.ch9",
+        "title": "Hand Tools",
+        "venue": "Occupational Ergonomics",
+        "year": 2016,
+        "matched_keyword": "Awkward postures"
+      }
+    ],
+    "gestes_repetitifs": [
+      {
+        "chunk_id": "23103cd21648b6a7a9f40aec442216309148c66ced2f02f9dedbc13e5e33c825:3",
+        "work_id": "doi:10.1002/9780470713990.ch25",
+        "title": "Neuroleptic‐Induced Movement Disorders",
+        "venue": "",
+        "year": 2008,
+        "matched_keyword": "Repetitive movements"
+      },
+      {
+        "chunk_id": "1a6e3fb2870301da68cc9c704e608009af9565cd859069e7d54f0d7fada84044:4",
+        "work_id": "doi:10.1002/9781118131350.ch27",
+        "title": "Managing Low‐Back Disorder Risk in the Workplace",
+        "venue": "",
+        "year": 2012,
+        "matched_keyword": "Repetitive movements"
+      },
+      {
+        "chunk_id": "b9e6e3d050aced4ad4bae69dc9acccd4ec5f4812b285e3b019efb9eead590465:3",
+        "work_id": "doi:10.1002/9781118655641.ch18",
+        "title": "Delirium",
+        "venue": "",
+        "year": 2014,
+        "matched_keyword": "Repetitive movements"
+      },
+      {
+        "chunk_id": "0bd24078fbdc9963623645b3c7f7e7fa92ec03dad72b73dd25656b77143f2863:3",
+        "work_id": "doi:10.1002/acn3.362",
+        "title": "Novel <i><scp>NALCN</scp></i> variant: altered respiratory and circadian rhythm, anesthetic sensitivity",
+        "venue": "Annals of Clinical and Translational Neurology",
+        "year": 2016,
+        "matched_keyword": "Repetitive movements"
+      },
+      {
+        "chunk_id": "c56c6afc3209a565c6f78498d40750216d8b3894c1a611968fb7398a57448d5f:0",
+        "work_id": "doi:10.1002/glia.23244",
+        "title": "Functional rhythmogenic domains defined by astrocytic networks in the trigeminal main sensory nucleus",
+        "venue": "Glia",
+        "year": 2017,
+        "matched_keyword": "Repetitive movements"
+      }
+    ],
+    "travail_ecran": [
+      {
+        "chunk_id": "05d7fa100a2e5f3bd6c7e690200b0035293c398601f77382f786ebfaae862715:6",
+        "work_id": "doi:10.1002/0471143030.cb1414s61",
+        "title": "Quantitative Analysis of Phosphoinositide 3‐Kinase (PI3K) Signaling Using Live‐Cell Total Internal Reflection Fluorescen",
+        "venue": "Current Protocols in Cell Biology",
+        "year": 2013,
+        "matched_keyword": "Computer work"
+      },
+      {
+        "chunk_id": "05d7fa100a2e5f3bd6c7e690200b0035293c398601f77382f786ebfaae862715:8",
+        "work_id": "doi:10.1002/0471143030.cb1414s61",
+        "title": "Quantitative Analysis of Phosphoinositide 3‐Kinase (PI3K) Signaling Using Live‐Cell Total Internal Reflection Fluorescen",
+        "venue": "Current Protocols in Cell Biology",
+        "year": 2013,
+        "matched_keyword": "Computer work"
+      },
+      {
+        "chunk_id": "05d7fa100a2e5f3bd6c7e690200b0035293c398601f77382f786ebfaae862715:9",
+        "work_id": "doi:10.1002/0471143030.cb1414s61",
+        "title": "Quantitative Analysis of Phosphoinositide 3‐Kinase (PI3K) Signaling Using Live‐Cell Total Internal Reflection Fluorescen",
+        "venue": "Current Protocols in Cell Biology",
+        "year": 2013,
+        "matched_keyword": "Computer work"
+      },
+      {
+        "chunk_id": "05d7fa100a2e5f3bd6c7e690200b0035293c398601f77382f786ebfaae862715:11",
+        "work_id": "doi:10.1002/0471143030.cb1414s61",
+        "title": "Quantitative Analysis of Phosphoinositide 3‐Kinase (PI3K) Signaling Using Live‐Cell Total Internal Reflection Fluorescen",
+        "venue": "Current Protocols in Cell Biology",
+        "year": 2013,
+        "matched_keyword": "Computer work"
+      },
+      {
+        "chunk_id": "05d7fa100a2e5f3bd6c7e690200b0035293c398601f77382f786ebfaae862715:13",
+        "work_id": "doi:10.1002/0471143030.cb1414s61",
+        "title": "Quantitative Analysis of Phosphoinositide 3‐Kinase (PI3K) Signaling Using Live‐Cell Total Internal Reflection Fluorescen",
+        "venue": "Current Protocols in Cell Biology",
+        "year": 2013,
+        "matched_keyword": "Computer work"
+      }
+    ],
+    "stress_chronique": [
+      {
+        "chunk_id": "231933a4f6cf80bd4aad1e1d2d35e5fd55bad066bf02add7ef6379c90d7df1f5:0",
+        "work_id": "doi:10.1001/jama.2012.323",
+        "title": "Coronary Heart Disease Risk Factors and Mortality",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "stress"
+      },
+      {
+        "chunk_id": "2f5add1a8171c457d6dd3b20f855bc74a2a1b8241838d21ba94e9af404583b5b:0",
+        "work_id": "doi:10.1001/jama.2012.336",
+        "title": "Cancer Experts Recommend Introducing Palliative Care at Time of Diagnosis",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "stress"
+      },
+      {
+        "chunk_id": "b91991c1d82a1a1666c6c6524e377f91f0ee171f5492b5fda68c9e4bfa2541f7:4",
+        "work_id": "doi:10.1001/jama.2012.3466",
+        "title": "Diagnosis and Treatment of Depression in Adults With Comorbid Medical Conditions",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "stress"
+      },
+      {
+        "chunk_id": "f0bf1e49e62521f27b224ac11afc5481e91c9354e1af27866d335f8ebc4b392d:3",
+        "work_id": "doi:10.1001/jama.2012.429",
+        "title": "AHA Statement Calls Attention to Risk of Peripheral Artery Disease in Women",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "stress"
+      },
+      {
+        "chunk_id": "098ab850678e9692eaabb667661b510fbd568d8e67e9632fe5aba297c4cd6cdd:4",
+        "work_id": "doi:10.1001/jama.2012.448",
+        "title": "Cardiovascular Events in Adults Taking Medications for ADHD",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "stress"
+      }
+    ],
+    "harcelement_moral": [
+      {
+        "chunk_id": "941893adf893c5abf781a1ec1e3768211fc1c2f6ff7e121f7db1cae6031cf8be:3",
+        "work_id": "doi:10.1001/virtualmentor.2009.11.2.oped1-0902",
+        "title": "Be Aware of Bullying: A Critical Public Health Responsibility",
+        "venue": "The AMA Journal of Ethic",
+        "year": 2009,
+        "matched_keyword": "Workplace bullying"
+      },
+      {
+        "chunk_id": "94a21e34f08a3142f76f8fdabe02052cc0477f96310b079c4a9359e4be450ec6:0",
+        "work_id": "doi:10.1002/9781118540190.wbeic254",
+        "title": "Workplace Bullying",
+        "venue": "The International Encyclopedia of Interpersonal Communication",
+        "year": 2015,
+        "matched_keyword": "Workplace bullying"
+      },
+      {
+        "chunk_id": "94a21e34f08a3142f76f8fdabe02052cc0477f96310b079c4a9359e4be450ec6:1",
+        "work_id": "doi:10.1002/9781118540190.wbeic254",
+        "title": "Workplace Bullying",
+        "venue": "The International Encyclopedia of Interpersonal Communication",
+        "year": 2015,
+        "matched_keyword": "Workplace bullying"
+      },
+      {
+        "chunk_id": "99ce49b40aee2e0ab7e07795e409ac9960cd3b1f86f4e20317f3ecacd2f14f29:5",
+        "work_id": "doi:10.1002/9781118598450.ch2",
+        "title": "“Everyday” Violence",
+        "venue": "",
+        "year": 2015,
+        "matched_keyword": "Workplace bullying"
+      },
+      {
+        "chunk_id": "fe70901e4a66bd640cc1f332958ab3dd701eea624cae6094367da66e7e73ff24:0",
+        "work_id": "doi:10.1002/9781118955567.wbieoc220",
+        "title": "Bullying in the Workplace",
+        "venue": "The International Encyclopedia of Organizational Communication",
+        "year": 2017,
+        "matched_keyword": "Workplace bullying"
+      }
+    ],
+    "violence_externe": [
+      {
+        "chunk_id": "4117bd530a498278eadf9568d76f50bf01fb0536bd1f9447ca91aa295b068c0b:2",
+        "work_id": "doi:10.1001/jama.2012.4989",
+        "title": "PEPFAR and Maximizing the Effects of Global Health Assistance",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "violence"
+      },
+      {
+        "chunk_id": "e8781ee83ab659c446aba4b898bf355922becb076cd55d5de38807e3ce5d67e5:1",
+        "work_id": "doi:10.1001/jama.2012.5084",
+        "title": "Dementia Should Be a Priority",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "violence"
+      },
+      {
+        "chunk_id": "18ffba0f44917dd8c072942d46caddaa5f766f5d452def075067fbcc5d0d5cba:7",
+        "work_id": "doi:10.1001/jama.2012.64610",
+        "title": "Progress Toward Global Eradication of Dracunculiasis—January 2011- June 2012",
+        "venue": "JAMA",
+        "year": 2013,
+        "matched_keyword": "violence"
+      },
+      {
+        "chunk_id": "d8688bd7f156817f64d0f967bc7983df94a783caa46299dc793066eb8fc0d3e2:0",
+        "work_id": "doi:10.1001/jama.2012.7729",
+        "title": "Afghan Mental Health Services",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "violence"
+      },
+      {
+        "chunk_id": "6aa9dd84a5990b7fce87fcb589b6bb86057bafa50f98b1a5f54017eb450e7329:0",
+        "work_id": "doi:10.1001/jama.2012.8390",
+        "title": "Anti–HIV-1 Antibodies",
+        "venue": "JAMA",
+        "year": 2012,
+        "matched_keyword": "violence"
+      }
+    ],
+    "travail_nuit": [
+      {
+        "chunk_id": "e9ca0b348a08e1afcd17f1dad4f6024c3bdd410abab5b7be5007004761017c57:1",
+        "work_id": "doi:10.1001/jama.2009.826",
+        "title": "Head Cases: Stories of Brain Injury and Its Aftermath",
+        "venue": "JAMA",
+        "year": 2009,
+        "matched_keyword": "travail"
+      },
+      {
+        "chunk_id": "008c5a8aa3ad4d0018c300708e2fd7df5576867959739d29e26fd5e0b18966cd:1",
+        "work_id": "doi:10.1001/jama.2010.1383",
+        "title": "Chasing Medical Miracles: The Promise and Perils of Clinical Trials",
+        "venue": "JAMA",
+        "year": 2010,
+        "matched_keyword": "travail"
+      },
+      {
+        "chunk_id": "2d2ed5cac956d9ff140f4ad5fc31b577529582aa5bb13213c694f106e7b5e554:2",
+        "work_id": "doi:10.1001/jama.2010.1870",
+        "title": "The House of Hope and Fear: Life in a Big City Hospital",
+        "venue": "JAMA",
+        "year": 2010,
+        "matched_keyword": "travail"
+      },
+      {
+        "chunk_id": "e7cc97b07b0d6cd0cba44a6277fdd7b3d18bd2a0d04d579043a777d29532b776:6",
+        "work_id": "doi:10.1001/jama.298.1.83",
+        "title": "Extensively Drug-Resistant Tuberculosis",
+        "venue": "JAMA",
+        "year": 2007,
+        "matched_keyword": "travail"
+      },
+      {
+        "chunk_id": "b4a4c2ab494dc348f513cb77c031989f23a02053881bcccdaaecb22451221aed:0",
+        "work_id": "doi:10.1001/jama.2020.6186",
+        "title": "King Lear Under COVID-19 Lockdown",
+        "venue": "JAMA",
+        "year": 2020,
+        "matched_keyword": "travail"
+      }
+    ],
+    "sedentarite": [],
+    "stress_thermique_chaud": [
+      {
+        "chunk_id": "da419634ada1faa7b5285107aa8d553530659b3b68af7ad4e1e31ad0933e6be6:1",
+        "work_id": "doi:10.1002/0470007257.ch8",
+        "title": "Personal Protective Equipment",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Heat stress"
+      },
+      {
+        "chunk_id": "da419634ada1faa7b5285107aa8d553530659b3b68af7ad4e1e31ad0933e6be6:2",
+        "work_id": "doi:10.1002/0470007257.ch8",
+        "title": "Personal Protective Equipment",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Heat stress"
+      },
+      {
+        "chunk_id": "da419634ada1faa7b5285107aa8d553530659b3b68af7ad4e1e31ad0933e6be6:18",
+        "work_id": "doi:10.1002/0470007257.ch8",
+        "title": "Personal Protective Equipment",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Heat stress"
+      },
+      {
+        "chunk_id": "3369319f1ce1bd0744407cb46d7527f88709792d73e334da1ae962bb9219c34d:0",
+        "work_id": "doi:10.1002/0471435139.hyg022.pub2",
+        "title": "Heat Stress",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Heat stress"
+      },
+      {
+        "chunk_id": "3369319f1ce1bd0744407cb46d7527f88709792d73e334da1ae962bb9219c34d:27",
+        "work_id": "doi:10.1002/0471435139.hyg022.pub2",
+        "title": "Heat Stress",
+        "venue": "Patty's Industrial Hygiene",
+        "year": 2011,
+        "matched_keyword": "Heat stress"
+      }
+    ],
+    "stress_thermique_froid": [
+      {
+        "chunk_id": "c16b7d2a581fd72f4f0113dfb66405d8b3505b6a1ec9ccf2994cf6f225b575bd:16",
+        "work_id": "doi:10.1002/0470048204.ch1",
+        "title": "The Discipline of Ergonomics and Human Factors",
+        "venue": "",
+        "year": 2006,
+        "matched_keyword": "Cold stress"
+      },
+      {
+        "chunk_id": "c6f82f1e0f04c3b6b3a825d508237b55a127ae43db4c5e8963533bad0d6d7113:13",
+        "work_id": "doi:10.1002/9780471740360.ebs0419",
+        "title": "Electrogastrography (EGG)",
+        "venue": "Wiley Encyclopedia of Biomedical Engineering",
+        "year": 2006,
+        "matched_keyword": "Cold stress"
+      },
+      {
+        "chunk_id": "49a475602395a8075a1a5257f1ea25395eb60048312588e5379fd9f7f34c7f74:17",
+        "work_id": "doi:10.1002/9781118131350.ch1",
+        "title": "The Discipline of Human Factors and Ergonomics",
+        "venue": "",
+        "year": 2012,
+        "matched_keyword": "Cold stress"
+      },
+      {
+        "chunk_id": "0d477601686c091524c43f453a1dd2210b848ee34b04bac4effafbd3f4101bc0:14",
+        "work_id": "doi:10.1002/9781118280249.ch3",
+        "title": "Causality",
+        "venue": "",
+        "year": 2018,
+        "matched_keyword": "Cold stress"
+      },
+      {
+        "chunk_id": "51530e28f71fad5c7316c3f906a6592b488b03ba2b7d5df5aba98751eca9d568:25",
+        "work_id": "doi:10.1002/9781118280249.ch5",
+        "title": "Determinants of disease",
+        "venue": "",
+        "year": 2018,
+        "matched_keyword": "Cold stress"
+      }
+    ]
+  }
+}
