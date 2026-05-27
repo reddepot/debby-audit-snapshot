@@ -1,4 +1,4 @@
-# Fiche pédagogique — **Plomb et composés inorganiques**
+# Fiche pédagogique — **Gestes répétitifs (TMS membres supérieurs)**
 
 > Auto-générée depuis DEBBY KG (kuzu-49sub-v0.2)  
 > Date : 2026-05-27  
@@ -9,28 +9,27 @@
 
 ## 1. Identification chimique
 
-- **Nom français** : Plomb et composés inorganiques
-- **Nom anglais** : Lead and inorganic compounds
-- **N° CAS** : `7439-92-1`
-- **Catégorie** : metal
-- **CMR (CLP)** : **Reprotoxique 1A** ⚠️
-- **VLEP 8h** : `0.1 mg/m³`
+- **Nom français** : Gestes répétitifs (TMS membres supérieurs)
+- **Nom anglais** : Repetitive movements
+- **Catégorie** : ergonomique
 
 ## 2. Pathologies professionnelles induites
 
 | Pathologie | Type | Sévérité | Niveau de preuve |
 |---|---|---|---|
-| **Encephalopathie plomb** | neurologique | moderee | IARC-2A |
-| **Nephropathie plomb** | autre | moderee | IARC-2A |
-| **Neuropathie peripherique plomb** | neurologique | moderee | IARC-2A |
-| **Saturnisme** | autre | moderee | IARC-2A |
+| **Epicondylite** | autre | moderee | — |
+| **Syndrome canal carpien** | autre | moderee | — |
+| **Syndrome loge guyon** | autre | moderee | — |
+| **Tendinite epaule coiffe** | autre | moderee | — |
 
 ## 3. Tableaux de maladies professionnelles applicables
 
 | Tableau | Intitulé | Régime | Variante |
 |---|---|---|---|
-| **`RA-18`** | Affections dues au plomb en agriculture (saturnisme) | RA | — |
-| **`RG-1`** | Affections dues au plomb et à ses composés | RG | — |
+| **`RG-57`** | Affections péri-articulaires provoquées par certains gestes et postures de travail (TMS) | RG | — |
+| **`RG-57-BIS`** | Affections péri-articulaires des membres supérieurs (variantes TMS récentes) | RG | BIS |
+| **`RG-79`** | Lésions chroniques du ménisque (manutention) | RG | — |
+| **`RG-98`** | Affections chroniques du rachis lombaire provoquées par la manutention manuelle habituelle de charges lourdes | RG | — |
 
 > ℹ️ Pour chaque tableau, vérifier :
 > - Délai de prise en charge
@@ -40,22 +39,24 @@
 
 ## 4. Métiers et secteurs exposés
 
-**BTP** : Demolisseur, Peintre renovation
+**INDUSTRIE** : Couturiere, Emballeur
 
-**INDUSTRIE** : Ferrailleur, Fondeur, Ouvrier batteries
+**SERVICES** : Conditionnement
+
+**TERTIAIRE** : Secretaire clavier
+
+**TRANSPORT_LOGISTIQUE** : Caissier
 
 ## 5. Organes/systèmes cibles
 
-- **Rein** (système urinaire)
+- **Os** (système musculo_squelettique)
 - **Système nerveux** (système neurologique)
 
 ## 6. Surveillance médicale recommandée
 
 | Pathologie ciblée | Examen | Périodicité | Source | Année |
 |---|---|---|---|---|
-| Saturnisme | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
-| Nephropathie plomb | **Créatininémie** | 12 mois | `Décret-3-mai-2023` | 2023 |
-| Neuropathie peripherique plomb | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
+| Syndrome canal carpien | **Électromyogramme (EMG)** | 12 mois | `HAS-2021` | 2021 |
 
 > ⚠️ **Toujours vérifier la dernière édition des recommandations** (HAS, INRS, décrets en vigueur).
 > Cette fiche est versionnée KG=`kuzu-49sub-v0.2` — si > 6 mois, ré-exécuter le pipeline KG pour intégrer les mises à jour réglementaires.
@@ -64,30 +65,34 @@
 
 ```mermaid
 graph LR
-    S["Plomb et composés inorganiques"]
-    encephalopathie_plomb["Encephalopathie plomb"]
-    S -->|CAUSE| encephalopathie_plomb
-    nephropathie_plomb["Nephropathie plomb"]
-    S -->|CAUSE| nephropathie_plomb
-    neuropathie_peripherique_plomb["Neuropathie peripherique plomb"]
-    S -->|CAUSE| neuropathie_peripherique_plomb
-    saturnisme["Saturnisme"]
-    S -->|CAUSE| saturnisme
-    RA_18["RA-18"]
-    encephalopathie_plomb -.->|classifiée dans| RA_18
-    RG_1["RG-1"]
-    encephalopathie_plomb -.->|classifiée dans| RG_1
+    S["Gestes répétitifs (TMS membres supérieurs)"]
+    epicondylite["Epicondylite"]
+    S -->|CAUSE| epicondylite
+    syndrome_canal_carpien["Syndrome canal carpien"]
+    S -->|CAUSE| syndrome_canal_carpien
+    syndrome_loge_guyon["Syndrome loge guyon"]
+    S -->|CAUSE| syndrome_loge_guyon
+    tendinite_epaule_coiffe["Tendinite epaule coiffe"]
+    S -->|CAUSE| tendinite_epaule_coiffe
+    RG_57["RG-57"]
+    epicondylite -.->|classifiée dans| RG_57
+    RG_57_BIS["RG-57-BIS"]
+    epicondylite -.->|classifiée dans| RG_57_BIS
+    RG_79["RG-79"]
+    epicondylite -.->|classifiée dans| RG_79
+    RG_98["RG-98"]
+    epicondylite -.->|classifiée dans| RG_98
     classDef substance fill:#ffcccc,stroke:#990000
     classDef patho fill:#fff2cc,stroke:#cc7700
     classDef tableau fill:#ccebff,stroke:#0066cc
     class S substance
 ```
 
-> Pour la vue complète : `kg/exports/debby_kg_plomb_v0.1.mermaid.md`
+> Pour la vue complète : `kg/exports/debby_kg_gestes_repetitifs_v0.1.mermaid.md`
 
 ## 8. Sources et traçabilité
 
-- **Source officielle substance** : https://www.inrs.fr/risques/plomb
+- **Source officielle substance** : https://www.inrs.fr/risques/tms
 - **Tableaux MP** : [INRS bdd/mp/listeTableaux.html](https://www.inrs.fr/publications/bdd/mp/listeTableaux.html) (vérifié 2026-05-27, 175 tableaux dont 28 BIS/TER)
 - **VLEP** : [INRS ED 984 — Valeurs limites](https://www.inrs.fr/publications/outils/aide-substances-cmr.html)
 - **Recommandations HAS** : [has-sante.fr](https://www.has-sante.fr/)
@@ -99,7 +104,7 @@ graph LR
 - `kg_version` : `kuzu-49sub-v0.2`
 - `corpus_version` : `2.1` (cf. `VERSIONS.md`)
 - `fiche_generated_at` : `2026-05-27`
-- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance plomb`
+- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance gestes_repetitifs`
 
 ---
 

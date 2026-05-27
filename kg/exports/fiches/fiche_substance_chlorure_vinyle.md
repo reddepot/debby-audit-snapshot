@@ -1,4 +1,4 @@
-# Fiche pédagogique — **Plomb et composés inorganiques**
+# Fiche pédagogique — **Chlorure de vinyle monomère (CVM)**
 
 > Auto-générée depuis DEBBY KG (kuzu-49sub-v0.2)  
 > Date : 2026-05-27  
@@ -9,28 +9,32 @@
 
 ## 1. Identification chimique
 
-- **Nom français** : Plomb et composés inorganiques
-- **Nom anglais** : Lead and inorganic compounds
-- **N° CAS** : `7439-92-1`
-- **Catégorie** : metal
-- **CMR (CLP)** : **Reprotoxique 1A** ⚠️
-- **VLEP 8h** : `0.1 mg/m³`
+- **Nom français** : Chlorure de vinyle monomère (CVM)
+- **Nom anglais** : Vinyl chloride
+- **N° CAS** : `75-01-4`
+- **Catégorie** : cov
+- **CMR (CLP)** : **Cancérogène avéré 1A** ⚠️
+- **VLEP 8h** : `2.59 mg/m³`
 
 ## 2. Pathologies professionnelles induites
 
 | Pathologie | Type | Sévérité | Niveau de preuve |
 |---|---|---|---|
-| **Encephalopathie plomb** | neurologique | moderee | IARC-2A |
-| **Nephropathie plomb** | autre | moderee | IARC-2A |
-| **Neuropathie peripherique plomb** | neurologique | moderee | IARC-2A |
-| **Saturnisme** | autre | moderee | IARC-2A |
+| **Acro osteolyse** | autre | moderee | IARC-1 |
+| **Angiosarcome foie** | autre | moderee | IARC-1 |
+| **Syndrome raynaud cvm** | autre | moderee | IARC-1 |
+| **Cancer hepatique** | cancer | grave | IARC-1 |
 
 ## 3. Tableaux de maladies professionnelles applicables
 
 | Tableau | Intitulé | Régime | Variante |
 |---|---|---|---|
-| **`RA-18`** | Affections dues au plomb en agriculture (saturnisme) | RA | — |
-| **`RG-1`** | Affections dues au plomb et à ses composés | RG | — |
+| **`RA-10`** | Affections provoquées par l'arsenic et ses composés agricoles | RA | — |
+| **`RG-20`** | Affections provoquées par l'arsenic et ses composés | RG | — |
+| **`RG-20-BIS`** | Cancers broncho-pulmonaires primitifs causés par l'inhalation de poussières renfermant des arséniates | RG | BIS |
+| **`RG-20-TER`** | Cancer cutané provoqué par l'arsenic et ses composés minéraux | RG | TER |
+| **`RG-52`** | Affections provoquées par le chlorure de vinyle monomère (CVM) | RG | — |
+| **`RG-52-BIS`** | Hémangiosarcome du foie provoqué par le chlorure de vinyle monomère | RG | BIS |
 
 > ℹ️ Pour chaque tableau, vérifier :
 > - Délai de prise en charge
@@ -40,22 +44,19 @@
 
 ## 4. Métiers et secteurs exposés
 
-**BTP** : Demolisseur, Peintre renovation
-
-**INDUSTRIE** : Ferrailleur, Fondeur, Ouvrier batteries
+**INDUSTRIE** : Ouvrier petrochimie, Plasturgiste, Polymerisation pvc
 
 ## 5. Organes/systèmes cibles
 
-- **Rein** (système urinaire)
-- **Système nerveux** (système neurologique)
+- **Foie** (système digestif)
+- **Os** (système musculo_squelettique)
+- **Peau** (système tegumentaire)
 
 ## 6. Surveillance médicale recommandée
 
 | Pathologie ciblée | Examen | Périodicité | Source | Année |
 |---|---|---|---|---|
-| Saturnisme | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
-| Nephropathie plomb | **Créatininémie** | 12 mois | `Décret-3-mai-2023` | 2023 |
-| Neuropathie peripherique plomb | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
+| Angiosarcome foie | **Scanner thoracique** | 24 mois | `INRS-2017` | 2017 |
 
 > ⚠️ **Toujours vérifier la dernière édition des recommandations** (HAS, INRS, décrets en vigueur).
 > Cette fiche est versionnée KG=`kuzu-49sub-v0.2` — si > 6 mois, ré-exécuter le pipeline KG pour intégrer les mises à jour réglementaires.
@@ -64,30 +65,38 @@
 
 ```mermaid
 graph LR
-    S["Plomb et composés inorganiques"]
-    encephalopathie_plomb["Encephalopathie plomb"]
-    S -->|CAUSE| encephalopathie_plomb
-    nephropathie_plomb["Nephropathie plomb"]
-    S -->|CAUSE| nephropathie_plomb
-    neuropathie_peripherique_plomb["Neuropathie peripherique plomb"]
-    S -->|CAUSE| neuropathie_peripherique_plomb
-    saturnisme["Saturnisme"]
-    S -->|CAUSE| saturnisme
-    RA_18["RA-18"]
-    encephalopathie_plomb -.->|classifiée dans| RA_18
-    RG_1["RG-1"]
-    encephalopathie_plomb -.->|classifiée dans| RG_1
+    S["Chlorure de vinyle monomère (CVM)"]
+    acro_osteolyse["Acro osteolyse"]
+    S -->|CAUSE| acro_osteolyse
+    angiosarcome_foie["Angiosarcome foie"]
+    S -->|CAUSE| angiosarcome_foie
+    syndrome_raynaud_cvm["Syndrome raynaud cvm"]
+    S -->|CAUSE| syndrome_raynaud_cvm
+    cancer_hepatique["Cancer hepatique"]
+    S -->|CAUSE| cancer_hepatique
+    RA_10["RA-10"]
+    acro_osteolyse -.->|classifiée dans| RA_10
+    RG_20["RG-20"]
+    acro_osteolyse -.->|classifiée dans| RG_20
+    RG_20_BIS["RG-20-BIS"]
+    acro_osteolyse -.->|classifiée dans| RG_20_BIS
+    RG_20_TER["RG-20-TER"]
+    acro_osteolyse -.->|classifiée dans| RG_20_TER
+    RG_52["RG-52"]
+    acro_osteolyse -.->|classifiée dans| RG_52
+    RG_52_BIS["RG-52-BIS"]
+    acro_osteolyse -.->|classifiée dans| RG_52_BIS
     classDef substance fill:#ffcccc,stroke:#990000
     classDef patho fill:#fff2cc,stroke:#cc7700
     classDef tableau fill:#ccebff,stroke:#0066cc
     class S substance
 ```
 
-> Pour la vue complète : `kg/exports/debby_kg_plomb_v0.1.mermaid.md`
+> Pour la vue complète : `kg/exports/debby_kg_chlorure_vinyle_v0.1.mermaid.md`
 
 ## 8. Sources et traçabilité
 
-- **Source officielle substance** : https://www.inrs.fr/risques/plomb
+- **Source officielle substance** : https://www.inrs.fr/risques/chlorure-vinyle
 - **Tableaux MP** : [INRS bdd/mp/listeTableaux.html](https://www.inrs.fr/publications/bdd/mp/listeTableaux.html) (vérifié 2026-05-27, 175 tableaux dont 28 BIS/TER)
 - **VLEP** : [INRS ED 984 — Valeurs limites](https://www.inrs.fr/publications/outils/aide-substances-cmr.html)
 - **Recommandations HAS** : [has-sante.fr](https://www.has-sante.fr/)
@@ -99,7 +108,7 @@ graph LR
 - `kg_version` : `kuzu-49sub-v0.2`
 - `corpus_version` : `2.1` (cf. `VERSIONS.md`)
 - `fiche_generated_at` : `2026-05-27`
-- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance plomb`
+- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance chlorure_vinyle`
 
 ---
 

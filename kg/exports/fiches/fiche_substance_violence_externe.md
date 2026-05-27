@@ -1,4 +1,4 @@
-# Fiche pédagogique — **Plomb et composés inorganiques**
+# Fiche pédagogique — **Violence externe (clientèle, public)**
 
 > Auto-générée depuis DEBBY KG (kuzu-49sub-v0.2)  
 > Date : 2026-05-27  
@@ -9,28 +9,22 @@
 
 ## 1. Identification chimique
 
-- **Nom français** : Plomb et composés inorganiques
-- **Nom anglais** : Lead and inorganic compounds
-- **N° CAS** : `7439-92-1`
-- **Catégorie** : metal
-- **CMR (CLP)** : **Reprotoxique 1A** ⚠️
-- **VLEP 8h** : `0.1 mg/m³`
+- **Nom français** : Violence externe (clientèle, public)
+- **Nom anglais** : External workplace violence
+- **Catégorie** : rps
 
 ## 2. Pathologies professionnelles induites
 
 | Pathologie | Type | Sévérité | Niveau de preuve |
 |---|---|---|---|
-| **Encephalopathie plomb** | neurologique | moderee | IARC-2A |
-| **Nephropathie plomb** | autre | moderee | IARC-2A |
-| **Neuropathie peripherique plomb** | neurologique | moderee | IARC-2A |
-| **Saturnisme** | autre | moderee | IARC-2A |
+| **Depression reactionnelle** | autre | moderee | — |
+| **Stress post traumatique** | autre | moderee | — |
+| **Traumatismes physiques** | autre | moderee | — |
+| **Troubles anxieux** | autre | moderee | — |
 
 ## 3. Tableaux de maladies professionnelles applicables
 
-| Tableau | Intitulé | Régime | Variante |
-|---|---|---|---|
-| **`RA-18`** | Affections dues au plomb en agriculture (saturnisme) | RA | — |
-| **`RG-1`** | Affections dues au plomb et à ses composés | RG | — |
+_Aucun tableau MP rattaché dans le KG._
 
 > ℹ️ Pour chaque tableau, vérifier :
 > - Délai de prise en charge
@@ -40,22 +34,24 @@
 
 ## 4. Métiers et secteurs exposés
 
-**BTP** : Demolisseur, Peintre renovation
+**SANTE** : Soignant urgences
 
-**INDUSTRIE** : Ferrailleur, Fondeur, Ouvrier batteries
+**SERVICES** : Controleur, Forces ordre
+
+**TERTIAIRE** : Banquier, Enseignant
+
+**TRANSPORT_LOGISTIQUE** : Caissier
 
 ## 5. Organes/systèmes cibles
 
-- **Rein** (système urinaire)
-- **Système nerveux** (système neurologique)
+_Aucun organe cible renseigné._
 
 ## 6. Surveillance médicale recommandée
 
 | Pathologie ciblée | Examen | Périodicité | Source | Année |
 |---|---|---|---|---|
-| Saturnisme | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
-| Nephropathie plomb | **Créatininémie** | 12 mois | `Décret-3-mai-2023` | 2023 |
-| Neuropathie peripherique plomb | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
+| Depression reactionnelle | **Évaluation RPS (questionnaires WOCCQ, Karasek)** | 12 mois | `INRS-RPS-2023` | 2023 |
+| Stress post traumatique | **Évaluation RPS (questionnaires WOCCQ, Karasek)** | 6 mois | `INRS-RPS-2023` | 2023 |
 
 > ⚠️ **Toujours vérifier la dernière édition des recommandations** (HAS, INRS, décrets en vigueur).
 > Cette fiche est versionnée KG=`kuzu-49sub-v0.2` — si > 6 mois, ré-exécuter le pipeline KG pour intégrer les mises à jour réglementaires.
@@ -64,30 +60,26 @@
 
 ```mermaid
 graph LR
-    S["Plomb et composés inorganiques"]
-    encephalopathie_plomb["Encephalopathie plomb"]
-    S -->|CAUSE| encephalopathie_plomb
-    nephropathie_plomb["Nephropathie plomb"]
-    S -->|CAUSE| nephropathie_plomb
-    neuropathie_peripherique_plomb["Neuropathie peripherique plomb"]
-    S -->|CAUSE| neuropathie_peripherique_plomb
-    saturnisme["Saturnisme"]
-    S -->|CAUSE| saturnisme
-    RA_18["RA-18"]
-    encephalopathie_plomb -.->|classifiée dans| RA_18
-    RG_1["RG-1"]
-    encephalopathie_plomb -.->|classifiée dans| RG_1
+    S["Violence externe (clientèle, public)"]
+    depression_reactionnelle["Depression reactionnelle"]
+    S -->|CAUSE| depression_reactionnelle
+    stress_post_traumatique["Stress post traumatique"]
+    S -->|CAUSE| stress_post_traumatique
+    traumatismes_physiques["Traumatismes physiques"]
+    S -->|CAUSE| traumatismes_physiques
+    troubles_anxieux["Troubles anxieux"]
+    S -->|CAUSE| troubles_anxieux
     classDef substance fill:#ffcccc,stroke:#990000
     classDef patho fill:#fff2cc,stroke:#cc7700
     classDef tableau fill:#ccebff,stroke:#0066cc
     class S substance
 ```
 
-> Pour la vue complète : `kg/exports/debby_kg_plomb_v0.1.mermaid.md`
+> Pour la vue complète : `kg/exports/debby_kg_violence_externe_v0.1.mermaid.md`
 
 ## 8. Sources et traçabilité
 
-- **Source officielle substance** : https://www.inrs.fr/risques/plomb
+- **Source officielle substance** : https://www.inrs.fr/risques/agression
 - **Tableaux MP** : [INRS bdd/mp/listeTableaux.html](https://www.inrs.fr/publications/bdd/mp/listeTableaux.html) (vérifié 2026-05-27, 175 tableaux dont 28 BIS/TER)
 - **VLEP** : [INRS ED 984 — Valeurs limites](https://www.inrs.fr/publications/outils/aide-substances-cmr.html)
 - **Recommandations HAS** : [has-sante.fr](https://www.has-sante.fr/)
@@ -99,7 +91,7 @@ graph LR
 - `kg_version` : `kuzu-49sub-v0.2`
 - `corpus_version` : `2.1` (cf. `VERSIONS.md`)
 - `fiche_generated_at` : `2026-05-27`
-- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance plomb`
+- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance violence_externe`
 
 ---
 

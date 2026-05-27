@@ -1,6 +1,6 @@
 # Fiche pédagogique — **Benzène**
 
-> Auto-générée depuis DEBBY KG (kuzu-10sub-v0.1)  
+> Auto-générée depuis DEBBY KG (kuzu-49sub-v0.2)  
 > Date : 2026-05-27  
 > Usage : formation MdT / DES MST. **Ne remplace pas le jugement clinique.**  
 > Sources primaires : INRS, HAS, Décrets FR. Cf. liens en bas de page.  
@@ -13,8 +13,8 @@
 - **Nom anglais** : Benzene
 - **N° CAS** : `71-43-2`
 - **Catégorie** : cov
-- **CMR (CLP)** : **Cancérogène avéré 1A** ⚠️
-- **VLEP 8h** : `3.25 mg/m³`
+- **CMR (CLP)** : **M1B+C1A** ⚠️
+- **VLEP 8h** : `1.65 mg/m³`
 
 ## 2. Pathologies professionnelles induites
 
@@ -28,10 +28,13 @@
 
 | Tableau | Intitulé | Régime | Variante |
 |---|---|---|---|
-| **`RA-19`** | Tableau RA n°19 | RA | — |
-| **`RA-25-BIS`** | Tableau RA n°25 BIS | RA | BIS |
-| **`RG-4`** | Tableau RG n°4 | RG | — |
-| **`RG-4-BIS`** | Tableau RG n°4 BIS | RG | BIS |
+| **`RA-19`** | Leptospirose professionnelle agricole | RA | — |
+| **`RA-19-BIS`** | Leptospirose ictéro-hémorragique (variante) | RA | BIS |
+| **`RA-25-BIS`** | Affections gastro-intestinales et hépatiques provoquées par le benzène en agriculture | RA | BIS |
+| **`RA-48`** | Affections engendrées par les bétas-naphtylamine en agriculture | RA | — |
+| **`RG-4`** | Hémopathies provoquées par le benzène et tous les produits en renfermant | RG | — |
+| **`RG-4-BIS`** | Affections gastro-intestinales, hépatiques, rénales et neurologiques provoquées par le benzène, le toluène, les xylènes | RG | BIS |
+| **`RG-84`** | Affections engendrées par les solvants organiques liquides à usage professionnel (toluène, xylène, MEK, etc.) | RG | — |
 
 > ℹ️ Pour chaque tableau, vérifier :
 > - Délai de prise en charge
@@ -49,7 +52,14 @@
 
 ## 6. Surveillance médicale recommandée
 
-_Aucune surveillance recommandée renseignée dans le KG._
+| Pathologie ciblée | Examen | Périodicité | Source | Année |
+|---|---|---|---|---|
+| Aplasie medullaire | **Numération formule sanguine + plaquettes** | 6 mois | `INRS-benzène` | 2020 |
+| Lymphome non hodgkinien | **Numération formule sanguine + plaquettes** | 12 mois | `INRS-benzène` | 2020 |
+| Leucemie myeloide | **Numération formule sanguine + plaquettes** | 6 mois | `INRS-benzène` | 2020 |
+
+> ⚠️ **Toujours vérifier la dernière édition des recommandations** (HAS, INRS, décrets en vigueur).
+> Cette fiche est versionnée KG=`kuzu-49sub-v0.2` — si > 6 mois, ré-exécuter le pipeline KG pour intégrer les mises à jour réglementaires.
 
 ## 7. Vue graphique focalisée
 
@@ -64,12 +74,18 @@ graph LR
     S -->|CAUSE| lymphome_non_hodgkinien
     RA_19["RA-19"]
     aplasie_medullaire -.->|classifiée dans| RA_19
+    RA_19_BIS["RA-19-BIS"]
+    aplasie_medullaire -.->|classifiée dans| RA_19_BIS
     RA_25_BIS["RA-25-BIS"]
     aplasie_medullaire -.->|classifiée dans| RA_25_BIS
+    RA_48["RA-48"]
+    aplasie_medullaire -.->|classifiée dans| RA_48
     RG_4["RG-4"]
     aplasie_medullaire -.->|classifiée dans| RG_4
     RG_4_BIS["RG-4-BIS"]
     aplasie_medullaire -.->|classifiée dans| RG_4_BIS
+    RG_84["RG-84"]
+    aplasie_medullaire -.->|classifiée dans| RG_84
     classDef substance fill:#ffcccc,stroke:#990000
     classDef patho fill:#fff2cc,stroke:#cc7700
     classDef tableau fill:#ccebff,stroke:#0066cc
@@ -89,7 +105,7 @@ graph LR
 
 ## 9. Versioning
 
-- `kg_version` : `kuzu-10sub-v0.1`
+- `kg_version` : `kuzu-49sub-v0.2`
 - `corpus_version` : `2.1` (cf. `VERSIONS.md`)
 - `fiche_generated_at` : `2026-05-27`
 - `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance benzene`

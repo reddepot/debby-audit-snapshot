@@ -1,4 +1,4 @@
-# Fiche pédagogique — **Plomb et composés inorganiques**
+# Fiche pédagogique — **Formaldéhyde**
 
 > Auto-générée depuis DEBBY KG (kuzu-49sub-v0.2)  
 > Date : 2026-05-27  
@@ -9,28 +9,31 @@
 
 ## 1. Identification chimique
 
-- **Nom français** : Plomb et composés inorganiques
-- **Nom anglais** : Lead and inorganic compounds
-- **N° CAS** : `7439-92-1`
-- **Catégorie** : metal
-- **CMR (CLP)** : **Reprotoxique 1A** ⚠️
-- **VLEP 8h** : `0.1 mg/m³`
+- **Nom français** : Formaldéhyde
+- **Nom anglais** : Formaldehyde
+- **N° CAS** : `50-00-0`
+- **Catégorie** : cov
+- **CMR (CLP)** : **M2+C1B** ⚠️
+- **VLEP 8h** : `0.37 mg/m³`
+- **VLEP court terme** : `0.74 mg/m³`
 
 ## 2. Pathologies professionnelles induites
 
 | Pathologie | Type | Sévérité | Niveau de preuve |
 |---|---|---|---|
-| **Encephalopathie plomb** | neurologique | moderee | IARC-2A |
-| **Nephropathie plomb** | autre | moderee | IARC-2A |
-| **Neuropathie peripherique plomb** | neurologique | moderee | IARC-2A |
-| **Saturnisme** | autre | moderee | IARC-2A |
+| **Asthme formaldehyde** | respiratoire | moderee | IARC-1 |
+| **Dermatite formaldehyde** | cutanee | legere | IARC-1 |
+| **Cancer nasopharynx** | cancer | grave | IARC-1 |
+| **Leucemie myeloide formaldehyde** | cancer | grave | IARC-1 |
 
 ## 3. Tableaux de maladies professionnelles applicables
 
 | Tableau | Intitulé | Régime | Variante |
 |---|---|---|---|
-| **`RA-18`** | Affections dues au plomb en agriculture (saturnisme) | RA | — |
-| **`RG-1`** | Affections dues au plomb et à ses composés | RG | — |
+| **`RA-28`** | Affections respiratoires causées par les moisissures et bactéries thermophiles | RA | — |
+| **`RA-28-BIS`** | Affections respiratoires aux fientes d'oiseaux | RA | BIS |
+| **`RG-43`** | Affections engendrées par les aldéhydes (aldéhyde formique - formaldéhyde, etc.) | RG | — |
+| **`RG-43-BIS`** | Affections cancéreuses provoquées par l'aldéhyde formique (cancer naso-sinusien) | RG | BIS |
 
 > ℹ️ Pour chaque tableau, vérifier :
 > - Délai de prise en charge
@@ -40,22 +43,21 @@
 
 ## 4. Métiers et secteurs exposés
 
-**BTP** : Demolisseur, Peintre renovation
+**INDUSTRIE** : Menuisier panneaux
 
-**INDUSTRIE** : Ferrailleur, Fondeur, Ouvrier batteries
+**SANTE** : Personnel anatomopathologie, Personnel morgue
 
 ## 5. Organes/systèmes cibles
 
-- **Rein** (système urinaire)
-- **Système nerveux** (système neurologique)
+- **Peau** (système tegumentaire)
+- **Poumon** (système respiratoire)
+- **Voies aériennes supérieures** (système respiratoire)
 
 ## 6. Surveillance médicale recommandée
 
 | Pathologie ciblée | Examen | Périodicité | Source | Année |
 |---|---|---|---|---|
-| Saturnisme | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
-| Nephropathie plomb | **Créatininémie** | 12 mois | `Décret-3-mai-2023` | 2023 |
-| Neuropathie peripherique plomb | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
+| Asthme formaldehyde | **Épreuves fonctionnelles respiratoires (EFR)** | 12 mois | `INRS-2017` | 2017 |
 
 > ⚠️ **Toujours vérifier la dernière édition des recommandations** (HAS, INRS, décrets en vigueur).
 > Cette fiche est versionnée KG=`kuzu-49sub-v0.2` — si > 6 mois, ré-exécuter le pipeline KG pour intégrer les mises à jour réglementaires.
@@ -64,30 +66,34 @@
 
 ```mermaid
 graph LR
-    S["Plomb et composés inorganiques"]
-    encephalopathie_plomb["Encephalopathie plomb"]
-    S -->|CAUSE| encephalopathie_plomb
-    nephropathie_plomb["Nephropathie plomb"]
-    S -->|CAUSE| nephropathie_plomb
-    neuropathie_peripherique_plomb["Neuropathie peripherique plomb"]
-    S -->|CAUSE| neuropathie_peripherique_plomb
-    saturnisme["Saturnisme"]
-    S -->|CAUSE| saturnisme
-    RA_18["RA-18"]
-    encephalopathie_plomb -.->|classifiée dans| RA_18
-    RG_1["RG-1"]
-    encephalopathie_plomb -.->|classifiée dans| RG_1
+    S["Formaldéhyde"]
+    asthme_formaldehyde["Asthme formaldehyde"]
+    S -->|CAUSE| asthme_formaldehyde
+    dermatite_formaldehyde["Dermatite formaldehyde"]
+    S -->|CAUSE| dermatite_formaldehyde
+    cancer_nasopharynx["Cancer nasopharynx"]
+    S -->|CAUSE| cancer_nasopharynx
+    leucemie_myeloide_formaldehyde["Leucemie myeloide formaldehyde"]
+    S -->|CAUSE| leucemie_myeloide_formaldehyde
+    RA_28["RA-28"]
+    asthme_formaldehyde -.->|classifiée dans| RA_28
+    RA_28_BIS["RA-28-BIS"]
+    asthme_formaldehyde -.->|classifiée dans| RA_28_BIS
+    RG_43["RG-43"]
+    asthme_formaldehyde -.->|classifiée dans| RG_43
+    RG_43_BIS["RG-43-BIS"]
+    asthme_formaldehyde -.->|classifiée dans| RG_43_BIS
     classDef substance fill:#ffcccc,stroke:#990000
     classDef patho fill:#fff2cc,stroke:#cc7700
     classDef tableau fill:#ccebff,stroke:#0066cc
     class S substance
 ```
 
-> Pour la vue complète : `kg/exports/debby_kg_plomb_v0.1.mermaid.md`
+> Pour la vue complète : `kg/exports/debby_kg_formaldehyde_v0.1.mermaid.md`
 
 ## 8. Sources et traçabilité
 
-- **Source officielle substance** : https://www.inrs.fr/risques/plomb
+- **Source officielle substance** : https://www.inrs.fr/risques/formaldehyde
 - **Tableaux MP** : [INRS bdd/mp/listeTableaux.html](https://www.inrs.fr/publications/bdd/mp/listeTableaux.html) (vérifié 2026-05-27, 175 tableaux dont 28 BIS/TER)
 - **VLEP** : [INRS ED 984 — Valeurs limites](https://www.inrs.fr/publications/outils/aide-substances-cmr.html)
 - **Recommandations HAS** : [has-sante.fr](https://www.has-sante.fr/)
@@ -99,7 +105,7 @@ graph LR
 - `kg_version` : `kuzu-49sub-v0.2`
 - `corpus_version` : `2.1` (cf. `VERSIONS.md`)
 - `fiche_generated_at` : `2026-05-27`
-- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance plomb`
+- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance formaldehyde`
 
 ---
 

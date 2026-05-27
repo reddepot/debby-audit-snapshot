@@ -1,4 +1,4 @@
-# Fiche pédagogique — **Plomb et composés inorganiques**
+# Fiche pédagogique — **Cobalt et composés**
 
 > Auto-générée depuis DEBBY KG (kuzu-49sub-v0.2)  
 > Date : 2026-05-27  
@@ -9,28 +9,29 @@
 
 ## 1. Identification chimique
 
-- **Nom français** : Plomb et composés inorganiques
-- **Nom anglais** : Lead and inorganic compounds
-- **N° CAS** : `7439-92-1`
+- **Nom français** : Cobalt et composés
+- **Nom anglais** : Cobalt
+- **N° CAS** : `7440-48-4`
 - **Catégorie** : metal
-- **CMR (CLP)** : **Reprotoxique 1A** ⚠️
-- **VLEP 8h** : `0.1 mg/m³`
+- **CMR (CLP)** : **Cancérogène présumé 1B** ⚠️
+- **VLEP 8h** : `0.01 mg/m³`
 
 ## 2. Pathologies professionnelles induites
 
 | Pathologie | Type | Sévérité | Niveau de preuve |
 |---|---|---|---|
-| **Encephalopathie plomb** | neurologique | moderee | IARC-2A |
-| **Nephropathie plomb** | autre | moderee | IARC-2A |
-| **Neuropathie peripherique plomb** | neurologique | moderee | IARC-2A |
-| **Saturnisme** | autre | moderee | IARC-2A |
+| **Asthme cobalt** | respiratoire | moderee | IARC-2B |
+| **Cardiopathie cobalt** | autre | moderee | IARC-2B |
+| **Fibrose pulmonaire cobalt** | autre | moderee | IARC-2B |
+| **Cancer pulmonaire cobalt** | cancer | grave | IARC-2B |
 
 ## 3. Tableaux de maladies professionnelles applicables
 
 | Tableau | Intitulé | Régime | Variante |
 |---|---|---|---|
-| **`RA-18`** | Affections dues au plomb en agriculture (saturnisme) | RA | — |
-| **`RG-1`** | Affections dues au plomb et à ses composés | RG | — |
+| **`RG-70`** | Affections professionnelles provoquées par le cobalt | RG | — |
+| **`RG-70-BIS`** | Affections respiratoires causées par l'inhalation de poussières de cobalt | RG | BIS |
+| **`RG-70-TER`** | Cancer broncho-pulmonaire dû à l'inhalation de poussières renfermant du cobalt associé au carbure de tungstène | RG | TER |
 
 > ℹ️ Pour chaque tableau, vérifier :
 > - Délai de prise en charge
@@ -40,22 +41,21 @@
 
 ## 4. Métiers et secteurs exposés
 
-**BTP** : Demolisseur, Peintre renovation
+**INDUSTRIE** : Affutage metaux dur, Aiguiseur, Verrerie
 
-**INDUSTRIE** : Ferrailleur, Fondeur, Ouvrier batteries
+**SANTE** : Prothesiste dentaire
 
 ## 5. Organes/systèmes cibles
 
-- **Rein** (système urinaire)
-- **Système nerveux** (système neurologique)
+- **Poumon** (système respiratoire)
 
 ## 6. Surveillance médicale recommandée
 
 | Pathologie ciblée | Examen | Périodicité | Source | Année |
 |---|---|---|---|---|
-| Saturnisme | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
-| Nephropathie plomb | **Créatininémie** | 12 mois | `Décret-3-mai-2023` | 2023 |
-| Neuropathie peripherique plomb | **Plombémie sanguine** | 6 mois | `Décret-3-mai-2023` | 2023 |
+| Cancer pulmonaire cobalt | **Scanner thoracique** | 60 mois | `HAS-2022` | 2022 |
+| Fibrose pulmonaire cobalt | **Épreuves fonctionnelles respiratoires (EFR)** | 12 mois | `INRS-2018` | 2018 |
+| Asthme cobalt | **Épreuves fonctionnelles respiratoires (EFR)** | 12 mois | `INRS-2017` | 2017 |
 
 > ⚠️ **Toujours vérifier la dernière édition des recommandations** (HAS, INRS, décrets en vigueur).
 > Cette fiche est versionnée KG=`kuzu-49sub-v0.2` — si > 6 mois, ré-exécuter le pipeline KG pour intégrer les mises à jour réglementaires.
@@ -64,30 +64,32 @@
 
 ```mermaid
 graph LR
-    S["Plomb et composés inorganiques"]
-    encephalopathie_plomb["Encephalopathie plomb"]
-    S -->|CAUSE| encephalopathie_plomb
-    nephropathie_plomb["Nephropathie plomb"]
-    S -->|CAUSE| nephropathie_plomb
-    neuropathie_peripherique_plomb["Neuropathie peripherique plomb"]
-    S -->|CAUSE| neuropathie_peripherique_plomb
-    saturnisme["Saturnisme"]
-    S -->|CAUSE| saturnisme
-    RA_18["RA-18"]
-    encephalopathie_plomb -.->|classifiée dans| RA_18
-    RG_1["RG-1"]
-    encephalopathie_plomb -.->|classifiée dans| RG_1
+    S["Cobalt et composés"]
+    asthme_cobalt["Asthme cobalt"]
+    S -->|CAUSE| asthme_cobalt
+    cardiopathie_cobalt["Cardiopathie cobalt"]
+    S -->|CAUSE| cardiopathie_cobalt
+    fibrose_pulmonaire_cobalt["Fibrose pulmonaire cobalt"]
+    S -->|CAUSE| fibrose_pulmonaire_cobalt
+    cancer_pulmonaire_cobalt["Cancer pulmonaire cobalt"]
+    S -->|CAUSE| cancer_pulmonaire_cobalt
+    RG_70["RG-70"]
+    asthme_cobalt -.->|classifiée dans| RG_70
+    RG_70_BIS["RG-70-BIS"]
+    asthme_cobalt -.->|classifiée dans| RG_70_BIS
+    RG_70_TER["RG-70-TER"]
+    asthme_cobalt -.->|classifiée dans| RG_70_TER
     classDef substance fill:#ffcccc,stroke:#990000
     classDef patho fill:#fff2cc,stroke:#cc7700
     classDef tableau fill:#ccebff,stroke:#0066cc
     class S substance
 ```
 
-> Pour la vue complète : `kg/exports/debby_kg_plomb_v0.1.mermaid.md`
+> Pour la vue complète : `kg/exports/debby_kg_cobalt_v0.1.mermaid.md`
 
 ## 8. Sources et traçabilité
 
-- **Source officielle substance** : https://www.inrs.fr/risques/plomb
+- **Source officielle substance** : https://www.inrs.fr/risques/cobalt
 - **Tableaux MP** : [INRS bdd/mp/listeTableaux.html](https://www.inrs.fr/publications/bdd/mp/listeTableaux.html) (vérifié 2026-05-27, 175 tableaux dont 28 BIS/TER)
 - **VLEP** : [INRS ED 984 — Valeurs limites](https://www.inrs.fr/publications/outils/aide-substances-cmr.html)
 - **Recommandations HAS** : [has-sante.fr](https://www.has-sante.fr/)
@@ -99,7 +101,7 @@ graph LR
 - `kg_version` : `kuzu-49sub-v0.2`
 - `corpus_version` : `2.1` (cf. `VERSIONS.md`)
 - `fiche_generated_at` : `2026-05-27`
-- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance plomb`
+- `pipeline` : `kg/scripts/export_fiche_pedagogique.py --substance cobalt`
 
 ---
 
