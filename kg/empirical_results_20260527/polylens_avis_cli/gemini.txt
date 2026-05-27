@@ -1,0 +1,47 @@
+Ripgrep is not available. Falling back to GrepTool.
+Rapport d'audit senior pour le projet **DEBBY** (Bundle 2026-05-27).
+
+### 1. Synthèse par axe POLYLENS (Verdict & Issue majeure)
+
+*   **Sécurité** : 🟠 **ALERTE CVE.** Blocage critique de `vec2text` par la CVE-2025-32434 (besoin urgent de `torch >= 2.6`). Risque d'exécution de code arbitraire via des modèles malveillants.
+*   **Qualité** : 🔴 **DANGER MÉDICAL.** Les VLEP (Valeurs Limites d'Exposition) sont périmées dans le KG pour le Plomb (0.05 vs 0.1 mg/m³) et le Benzène (3.25 vs 1.65 mg/m³ - Décret 2024). Inacceptable pour un outil SST.
+*   **Tests** : 🔴 **ÉCHEC RAGAS.** Fidélité (faithfulness) à **0.033**. Le retrieval "naïf text LIKE" utilisé pour l'évaluation est un désastre ; le système actuel ne sait pas chercher dans sa propre bibliothèque.
+*   **Performance** : 🟢 **EXCELLENT.** Latence Kuzu KG à **1.89 ms** sur requêtes multi-hop. L'infrastructure vectorielle (23M chunks) est prête, mais le moteur de recherche (LanceDB) n'est pas encore branché à l'échelle.
+*   **Architecture** : 🟡 **POC SCALABLE.** Le pattern *Bring Your Own Embedder* (Table A/B) est solide, mais le "Chef-d'œuvre" promis est encore un assemblage de pièces détachées non soudées (KG déconnecté du retrieval réel).
+*   **Documentation** : 🟠 **SUR-CLAIM.** Le MANUEL_UTILISATEUR est propre, mais le "Plan définitif" survend un état de complétude que les mesures RAGAS et les erreurs de données contredisent frontalement.
+*   **Adversarial** : 🟡 **RÉSILIENCE MOYENNE.** Le canari de fidélité cosinus (0.99) protège contre le drift du provider, mais l'absence de filtrage contextuel sur "lead" (polysémie 93.9%) pollue massivement les résultats.
+
+---
+
+### 2. Tableau des Risques et Fixes Recommandés
+
+| Risque | Sévérité | Impact | Fix Recommandé |
+|:---|:---:|:---|:---|
+| **VLEP périmées** (Benzène/Plomb) | 🔴 Critiquissime | Conseil médical erroné / Faute professionnelle | Update KG v0.3 via MCP SSTinfo immédiat |
+| **CVE-2025-32434** (torch) | 🔴 Haute | Compromission du serveur RunPod | Upgrade `torch >= 2.6` / Bypass `vec2text` |
+| **Faithfulness 0.03** | 🔴 Haute | Hallucinations massives du RAG | Activer Hybrid Retrieval (BM25 + Vector) |
+| **Polysémie "Lead" (94%)** | 🟠 Moyenne | Bruit toxique (Leadership vs Plomb) | Filtrage contextuel "blood lead / exposure" |
+| **Faux positifs EBM=1 (90%)** | 🟠 Moyenne | Dilution de la preuve scientifique | Regex stricte sur titre (Meta/Systematic) |
+| **Biais Table 1 (4600+ matches)** | 🟠 Moyenne | Confusion Tableaux MP vs Tables d'articles | Matching strict "Tableau MP n° X" |
+| **Mismatch CMR Benzène** | 🟡 Faible | Omission Mutagène 1B (M1B) | Enrichissement meta via ECHA/PubChem |
+| **Pseudo-CAS (Dates)** | 🟡 Faible | Pollution du graphe de substances | Checksum Modulo 10 obligatoire sur CAS |
+| **Normalisation Métiers** | 🔵 Mineure | Duplication "Macon" vs "Maçon" | Normalisation Unicode NFD + Strip diacritics |
+| **Sous-couverture Rétractations** | 🔵 Mineure | Usage de sources non fiables (x14 attendu) | Cross-check OpenAlex `is_retracted` |
+
+---
+
+### 3. TOP 3 Corrections Prioritaires
+
+1.  **SÉCURITÉ DES DONNÉES (Sanity Check v0.3)** : Correction immédiate des VLEP Benzène et Plomb dans `substances_pilotes_v0.2.json`. Une erreur sur ces chiffres disqualifie DEBBY en tant qu'outil médical.
+2.  **MOTEUR DE RECHERCHE (LanceDB Full Build)** : Passer du retrieval "LIKE" au retrieval vectoriel sur les 22.9M de chunks. Sans cela, le score RAGAS restera proche de zéro.
+3.  **DÉPOLLUTION SÉMANTIQUE** : Appliquer les filtres de contexte sur le "Lead" et les "Tableaux" pour réduire le bruit de 90% avant la génération des fiches pédagogiques.
+
+---
+
+### 4. Verdict Global
+
+Note : **4.5 / 10**
+
+DEBBY est un **Prototype Haute Fidélité techniquement brillant mais médicalement instable**. L'infrastructure de stockage et d'embedding est un chef-d'œuvre de logistique IA ($190 pour 23M de chunks), mais le produit livré est "aveugle" (retrieval défaillant) et "amnésique" (données réglementaires 2024 manquantes).
+
+**Statut actuel : POC Avancé (Alpha)**. Le label "Chef-d'œuvre" ne pourra être revendiqué qu'après la synchronisation VLEP 2024 et un score RAGAS Faithfulness > 0.7.

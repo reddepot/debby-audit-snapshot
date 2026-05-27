@@ -1,0 +1,333 @@
+{
+  "summary": {
+    "global_means": {
+      "faithfulness": {
+        "mean_of_query_means": 0.044,
+        "stdev_of_query_means": 0.051,
+        "n_queries": 3
+      },
+      "answer_relevance": {
+        "mean_of_query_means": 0.0,
+        "stdev_of_query_means": 0.0,
+        "n_queries": 3
+      },
+      "context_precision": {
+        "mean_of_query_means": 0.0,
+        "stdev_of_query_means": 0.0,
+        "n_queries": 3
+      }
+    },
+    "per_judge_means": {
+      "codex": {
+        "faithfulness": {
+          "mean": 0.133,
+          "n": 3
+        },
+        "answer_relevance": {
+          "mean": 0.0,
+          "n": 3
+        },
+        "context_precision": {
+          "mean": 0.0,
+          "n": 3
+        }
+      },
+      "gemini": {
+        "faithfulness": {
+          "mean": 0.0,
+          "n": 3
+        },
+        "answer_relevance": {
+          "mean": 0.0,
+          "n": 3
+        },
+        "context_precision": {
+          "mean": 0.0,
+          "n": 3
+        }
+      },
+      "kimi": {
+        "faithfulness": {
+          "mean": 0.0,
+          "n": 3
+        },
+        "answer_relevance": {
+          "mean": 0.0,
+          "n": 3
+        },
+        "context_precision": {
+          "mean": 0.0,
+          "n": 3
+        }
+      }
+    },
+    "judges": [
+      "codex",
+      "gemini",
+      "kimi"
+    ],
+    "divergences_sigma_gt_0_2": [],
+    "top3_best": [
+      {
+        "id": "apt02",
+        "category": "aptitude",
+        "avg": 0.033,
+        "query": "reprise après infarctus du myocarde chez conducteur poids lourd, délai et conditions d'aptitude"
+      },
+      {
+        "id": "apt01",
+        "category": "aptitude",
+        "avg": 0.011,
+        "query": "salarié cariste avec épilepsie traitée stabilisée, apte à la conduite de chariot élévateur ?"
+      },
+      {
+        "id": "apt03",
+        "category": "aptitude",
+        "avg": 0.0,
+        "query": "travail en hauteur et vertige positionnel paroxystique bénin, restrictions à poser"
+      }
+    ],
+    "top3_worst": [
+      {
+        "id": "apt03",
+        "category": "aptitude",
+        "avg": 0.0,
+        "query": "travail en hauteur et vertige positionnel paroxystique bénin, restrictions à poser"
+      },
+      {
+        "id": "apt01",
+        "category": "aptitude",
+        "avg": 0.011,
+        "query": "salarié cariste avec épilepsie traitée stabilisée, apte à la conduite de chariot élévateur ?"
+      },
+      {
+        "id": "apt02",
+        "category": "aptitude",
+        "avg": 0.033,
+        "query": "reprise après infarctus du myocarde chez conducteur poids lourd, délai et conditions d'aptitude"
+      }
+    ],
+    "recommendation": "URGENT — faithfulness moyenne 0.044 < 0.5, retrieval insuffisant"
+  },
+  "rows": [
+    {
+      "id": "apt01",
+      "category": "aptitude",
+      "query": "salarié cariste avec épilepsie traitée stabilisée, apte à la conduite de chariot élévateur ?",
+      "judges": {
+        "codex": {
+          "attempt": 1,
+          "duration_s": 8.52,
+          "faithfulness": 0.1,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Une réponse sur l’aptitude d’un cariste épileptique serait largement non étayée par ces sources, qui ne parlent que de chutes, hypotension et polymédication.",
+          "comment_relevance": "Les chunks ne fournissent aucune information sur l’épilepsie stabilisée, la conduite de chariot élévateur, l’aptitude médicale ou les recommandations SST.",
+          "comment_precision": "Les trois chunks proviennent du même contenu hors sujet sur les chutes liées aux médicaments et constituent donc du bruit pour cette requête."
+        },
+        "gemini": {
+          "attempt": 1,
+          "duration_s": 18.73,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les sources ne contiennent aucune information sur l'épilepsie ou l'aptitude à la conduite, rendant impossible la construction d'une réponse fidèle aux faits demandés.",
+          "comment_relevance": "Les documents traitent des risques de chutes liés à la polymédication en gériatrie, ce qui est totalement hors-sujet par rapport à la question d'aptitude du cariste.",
+          "comment_precision": "Le système a extrait des segments portant sur un domaine médical sans lien avec les mots-clés 'épilepsie' ou 'chariot élévateur', constituant un bruit de 100%."
+        },
+        "kimi": {
+          "attempt": 1,
+          "duration_s": 47.31,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les chunks traitent exclusivement de polypharmacy et de chutes médicamenteuses, sans aucune mention de l'épilepsie, de la conduite de chariot élévateur ou des critères d'aptitude professionnelle ; toute réponse construite à partir de ces sources serait non fondée ou hallucinée.",
+          "comment_relevance": "Le contenu porte sur les chutes liées aux médicaments chez les personnes polytraitées, ce qui est totalement orthogonal à la question d'aptitude d'un cariste épileptique stabilisé.",
+          "comment_precision": "Aucun des 3 chunks n'est pertinent pour la requête ; il s'agit d'un bruit total (0 % de précision) avec un sujet médicamenteux sans lien avec l'épilepsie ou la médecine du travail pour caristes."
+        }
+      },
+      "aggregate": {
+        "voices": 3,
+        "errors": [],
+        "by_dim": {
+          "faithfulness": {
+            "mean": 0.033,
+            "stdev": 0.058,
+            "n": 3,
+            "scores": [
+              0.1,
+              0.0,
+              0.0
+            ]
+          },
+          "answer_relevance": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "context_precision": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "apt02",
+      "category": "aptitude",
+      "query": "reprise après infarctus du myocarde chez conducteur poids lourd, délai et conditions d'aptitude",
+      "judges": {
+        "codex": {
+          "attempt": 1,
+          "duration_s": 5.8,
+          "faithfulness": 0.3,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Une réponse fondée uniquement sur ces chunks serait fidèle seulement si elle parlait de polypharmacie et de chutes, mais toute réponse sur la reprise après infarctus serait non sourcée.",
+          "comment_relevance": "Les chunks ne contiennent aucune information sur l'infarctus du myocarde, les conducteurs poids lourd, les délais de reprise ou les conditions d'aptitude.",
+          "comment_precision": "Les trois chunks portent sur les chutes liées aux médicaments et constituent du bruit complet par rapport à la requête d'aptitude post-infarctus."
+        },
+        "gemini": {
+          "attempt": 1,
+          "duration_s": 12.16,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les sources ne contiennent aucune information sur l'infarctus du myocarde ou les critères d'aptitude des conducteurs poids lourd.",
+          "comment_relevance": "Les chunks traitent exclusivement des chutes liées à la polymédication, ce qui est totalement hors sujet par rapport à la reprise post-infarctus.",
+          "comment_precision": "Aucun des trois extraits n'est pertinent pour la requête, constituant un bruit total par rapport à la thématique de l'aptitude médicale au transport."
+        },
+        "kimi": {
+          "attempt": 1,
+          "duration_s": 18.75,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les chunks traitent de chutes liées à la polypharmacie et ne contiennent aucune information sur l'infarctus du myocarde, les conducteurs poids lourd ou les délais d'aptitude ; une réponse construite à partir de ces sources serait donc totalement infidèle à la question posée.",
+          "comment_relevance": "Le sujet des chunks (chutes et médicaments) est complètement orthogonale à la requête qui porte sur la reprise du travail post-IDM chez les conducteurs PL, aucun élément ne permet d'adresser le délai ou les conditions d'aptitude.",
+          "comment_precision": "Les 3 chunks sont identiques en thématique et aucun n'est pertinent pour la requête ; le bruit est de 100 %, ce qui donne une précision du contexte nulle."
+        }
+      },
+      "aggregate": {
+        "voices": 3,
+        "errors": [],
+        "by_dim": {
+          "faithfulness": {
+            "mean": 0.1,
+            "stdev": 0.173,
+            "n": 3,
+            "scores": [
+              0.3,
+              0.0,
+              0.0
+            ]
+          },
+          "answer_relevance": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "context_precision": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "apt03",
+      "category": "aptitude",
+      "query": "travail en hauteur et vertige positionnel paroxystique bénin, restrictions à poser",
+      "judges": {
+        "codex": {
+          "attempt": 1,
+          "duration_s": 5.83,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les chunks ne contiennent aucune information médicale ou SST sur le VPPB, le vertige, l’aptitude ou le travail en hauteur, donc toute réponse utile serait non fondée sur les sources.",
+          "comment_relevance": "Les chunks sont hors sujet et ne permettent pas de déterminer des restrictions d’aptitude liées au travail en hauteur chez une personne avec vertige positionnel paroxystique bénin.",
+          "comment_precision": "Aucun des trois chunks n’est pertinent pour la requête, ils relèvent de recensions ou récits médicaux sans lien avec la problématique SST demandée."
+        },
+        "gemini": {
+          "attempt": 1,
+          "duration_s": 15.49,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les sources ne contiennent aucune donnée sur le VPPB ou les restrictions de travail, rendant impossible la rédaction d'une réponse fidèle.",
+          "comment_relevance": "Le contenu porte sur des critiques de livres de chirurgie et de témoignages hospitaliers, ce qui est totalement hors sujet.",
+          "comment_precision": "Le système n'a retourné que du bruit (100% de documents non pertinents) sans aucun lien avec la médecine du travail ou l'ORL."
+        },
+        "kimi": {
+          "attempt": 1,
+          "duration_s": 23.59,
+          "faithfulness": 0.0,
+          "answer_relevance": 0.0,
+          "context_precision": 0.0,
+          "comment_faithfulness": "Les chunks ne contiennent aucune information sur le vertige positionnel paroxystique bénin ni sur les restrictions de travail en hauteur ; toute réponse construite à partir de ces sources serait non fidèle et hallucinée.",
+          "comment_relevance": "Aucun des trois chunks ne traite de médecine du travail, de neurologie vestibulaire ou de prévention des chutes en hauteur ; ils sont totalement incapables de répondre à la requête.",
+          "comment_precision": "Les trois chunks sont du bruit pur (chirurgie orthopédique pédiatrique, essai clinique sur le diabète, récit hospitalier) et aucun n'est pertinent pour la catégorie aptitude."
+        }
+      },
+      "aggregate": {
+        "voices": 3,
+        "errors": [],
+        "by_dim": {
+          "faithfulness": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "answer_relevance": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "context_precision": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "n": 3,
+            "scores": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+• L'utilisateur me demande un audit multi-axes d'un projet RAG médical SST FR ap
+  pelé DEBBY. Je dois examiner le bundle livré et produire un rapport d'audit co
+  ncis et implacable.
+
+  Pour faire cet audit sérieusement, je dois d'abord examiner le repo en détail.
+  Je vais lire les fichiers clés et explorer la structure. L'utilisateur a donné
+  des commits clés à examiner et des ressources.
+
+  Je vais lancer plusieurs explorations en parallèle :
+
+  1. Lire les fichiers markdown principaux (README, DEBBY_AUDIT_SNAPSHOT, PLAN_D
+     NITIF, etc.)
+  2. Explorer la structure du repo (kg/, scripts/, etc.)
+  3. Examiner les commits mentionnés
+
+  Commençons par explorer le repo en profondeur.
+
