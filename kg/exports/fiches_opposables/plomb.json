@@ -1,0 +1,259 @@
+{
+  "substance_id": "plomb",
+  "nom_fr": "Plomb et composés inorganiques",
+  "generated_at": "2026-05-27",
+  "kg_version": "kuzu-50sub-v0.2",
+  "layer3_version": "layer3-v0.1",
+  "sections": [
+    {
+      "titre": "1. Identification chimique et classification réglementaire",
+      "contenu": "**Nom français** : Plomb et composés inorganiques — **N° CAS** : `7439-92-1` — **Catégorie** : metal — **Classification CMR (CLP)** : Reprotoxique 1A — **VLEP 8h** : `0.05 mg/m³`",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — plomb — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/plomb",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-152 — VLEP plomb 0,05 mg/m³ et VLB plombémie 400 µg/L (H) / 300 µg/L (F âge fertile)",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018532213/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "INRS ED 6201 — Plomb et ses composés, prévention du risque",
+          "annee": 2023,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/edition/ed6201.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "2. Pathologies professionnelles induites (niveau de preuve)",
+      "contenu": "Pathologies professionnelles induites :\n- **Encephalopathie plomb** (neurologique, sévérité=moderee, niveau de preuve=IARC-2A)\n- **Nephropathie plomb** (autre, sévérité=moderee, niveau de preuve=IARC-2A)\n- **Neuropathie peripherique plomb** (neurologique, sévérité=moderee, niveau de preuve=IARC-2A)\n- **Saturnisme** (autre, sévérité=moderee, niveau de preuve=IARC-2A)",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — plomb — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/plomb",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "INRS ED 6201 — Plomb et ses composés, prévention du risque",
+          "annee": 2023,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/edition/ed6201.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "EBM-2",
+          "titre": "CIRC Monographs Vol. 87 — Inorganic and Organic Lead Compounds",
+          "annee": 2006,
+          "organisme": "IARC/WHO",
+          "url": "https://publications.iarc.fr/107",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        }
+      ]
+    },
+    {
+      "titre": "3. Tableaux de maladies professionnelles applicables (FR)",
+      "contenu": "Tableaux MP applicables :\n- **RA-18** (régime RA, n° 18 ) : Affections dues au plomb en agriculture (saturnisme)\n- **RG-1** (régime RG, n° 1 ) : Affections dues au plomb et à ses composés",
+      "sources": [
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-152 — VLEP plomb 0,05 mg/m³ et VLB plombémie 400 µg/L (H) / 300 µg/L (F âge fertile)",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018532213/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "4. Métiers et secteurs exposés",
+      "contenu": "Métiers et secteurs exposés :\n- **BTP** : Demolisseur, Peintre renovation\n- **INDUSTRIE** : Ferrailleur, Fondeur, Ouvrier batteries",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — plomb — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/plomb",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "INRS ED 6201 — Plomb et ses composés, prévention du risque",
+          "annee": 2023,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/edition/ed6201.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "5. Surveillance médicale recommandée et organes cibles",
+      "contenu": "**Organes cibles** : Rein (urinaire), Système nerveux (neurologique)\n**Surveillance médicale recommandée** :\n- Pathologie ciblée : Saturnisme → examen **Plombémie sanguine** (tous les 6 mois, source Décret-3-mai-2023 2023)\n- Pathologie ciblée : Nephropathie plomb → examen **Créatininémie** (tous les 12 mois, source Décret-3-mai-2023 2023)\n- Pathologie ciblée : Neuropathie peripherique plomb → examen **Plombémie sanguine** (tous les 6 mois, source Décret-3-mai-2023 2023)",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — plomb — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/plomb",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-152 — VLEP plomb 0,05 mg/m³ et VLB plombémie 400 µg/L (H) / 300 µg/L (F âge fertile)",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018532213/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "INRS ED 6201 — Plomb et ses composés, prévention du risque",
+          "annee": 2023,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/edition/ed6201.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    }
+  ],
+  "alternatives_ecartees": [
+    {
+      "alternative": "Maintien à l'identique du procédé exposant à un agent CMR R1A",
+      "raison_ecartement": "Obligation réglementaire de substitution (Code du travail R4412-66) — l'employeur doit rechercher activement un produit ou procédé de substitution moins dangereux.",
+      "source": {
+        "type": "REG-FR",
+        "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+        "annee": 2023,
+        "organisme": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+        "chunk_id": null,
+        "niveau_preuve_score": 5
+      }
+    },
+    {
+      "alternative": "Surveillance médicale standard (visite tous les 5 ans)",
+      "raison_ecartement": "CMR catégorie R1A impose Suivi Individuel Renforcé (SIR) avec examens spécifiques selon HAS et INRS. Cf. R4624-23.",
+      "source": {
+        "type": "REG-FR",
+        "titre": "Code du travail — Art. R4412-149 et suivants — VLEP contraignantes et indicatives",
+        "annee": 2023,
+        "organisme": "Légifrance / Ministère du travail",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530338/",
+        "chunk_id": null,
+        "niveau_preuve_score": 5
+      }
+    },
+    {
+      "alternative": "Maintien de l'exposition pour femme enceinte/allaitante ou en âge de procréer",
+      "raison_ecartement": "Substance classée reprotoxique R1A : interdiction d'exposition pour femmes enceintes ou allaitantes (Code du travail D4152-9 et suivants). Retrait obligatoire du poste exposant ou aménagement immédiat.",
+      "source": {
+        "type": "REG-FR",
+        "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+        "annee": 2023,
+        "organisme": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+        "chunk_id": null,
+        "niveau_preuve_score": 5
+      }
+    }
+  ],
+  "chain_of_reasoning": "Cette fiche opposable pour Plomb et composés inorganiques a été construite selon la logique suivante :\n1. **Identification** : récupération depuis KG Kuzu (id=plomb) des propriétés CAS, catégorie, classification CMR, VLEP.\n2. **Pathologies** : 4 pathologie(s) référencée(s) via la relation Substance-[CAUSE]->Pathologie. Niveau de preuve hérité du KG ; à valider face aux dernières méta-analyses Cochrane/CIRC.\n3. **Tableaux MP** : 2 tableau(x) MP applicable(s) via la relation Pathologie-[CLASSIFIEE_DANS]->Tableau_MP. Toujours vérifier délai de prise en charge, durée d'exposition minimale, liste limitative des travaux sur INRS BDD MP (175 tableaux au 2026-05).\n4. **Métiers** : extraction via Metier-[EXPOSE_A]->Substance ; complémenter par fiche FMP Présanse spécifique au cas d'espèce.\n5. **Surveillance** : recommandations issues du KG (HAS/INRS) ; vérifier actualité (cycle 6 mois) et adapter au niveau d'exposition individuel.\nTotal : 6 source(s) primaire(s) citée(s). Cette fiche n'écarte aucune source connue — toute lacune est listée dans audit_check.lacunes_connues.",
+  "audit_check": {
+    "n_sections": 5,
+    "n_sources_total": 18,
+    "n_chunks_traces": 0,
+    "n_pathologies_kg": 4,
+    "n_tableaux_mp_kg": 2,
+    "n_metiers_kg": 5,
+    "n_surveillances_kg": 3,
+    "lacunes_connues": [
+      "Aucun chunk Table A tracé (BYOE pending) — pointeurs source_chunk_ids vides"
+    ],
+    "kg_version": "kuzu-50sub-v0.2",
+    "layer3_version": "layer3-v0.1",
+    "review_humaine_requise": true
+  },
+  "disclaimer": "Cette fiche est un support pédagogique généré depuis le KG DEBBY. Elle agrège des sources de référence (INRS, HAS, décrets FR) mais ne remplace pas la lecture des textes primaires ni le jugement clinique du médecin du travail."
+}

@@ -1,0 +1,242 @@
+{
+  "substance_id": "glyphosate",
+  "nom_fr": "Glyphosate",
+  "generated_at": "2026-05-27",
+  "kg_version": "kuzu-50sub-v0.2",
+  "layer3_version": "layer3-v0.1",
+  "sections": [
+    {
+      "titre": "1. Identification chimique et classification réglementaire",
+      "contenu": "**Nom français** : Glyphosate — **N° CAS** : `1071-83-6` — **Catégorie** : pesticide — **Classification CMR (CLP)** : controversie_C2_IARC2A",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — glyphosate — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/glyphosate",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "EFSA — Conclusion peer review glyphosate, divergence avec CIRC (à valider)",
+          "annee": 2023,
+          "organisme": "EFSA",
+          "url": "https://www.efsa.europa.eu/en/efsajournal/pub/8164",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Décret n° 2020-1257 — Tableau RA-59 lymphome non hodgkinien et pesticides",
+          "annee": 2020,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042424802/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "2. Pathologies professionnelles induites (niveau de preuve)",
+      "contenu": "Pathologies professionnelles induites :\n- **Maladie parkinson pesticides** (autre, sévérité=moderee, niveau de preuve=IARC-2A)\n- **Lymphome non hodgkinien glyphosate** (cancer, sévérité=grave, niveau de preuve=IARC-2A)",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — glyphosate — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/glyphosate",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "EBM-1a",
+          "titre": "CIRC Monographs Vol. 112 — Glyphosate (classement 2A)",
+          "annee": 2017,
+          "organisme": "IARC/WHO",
+          "url": "https://publications.iarc.fr/549",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "EFSA — Conclusion peer review glyphosate, divergence avec CIRC (à valider)",
+          "annee": 2023,
+          "organisme": "EFSA",
+          "url": "https://www.efsa.europa.eu/en/efsajournal/pub/8164",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        }
+      ]
+    },
+    {
+      "titre": "3. Tableaux de maladies professionnelles applicables (FR)",
+      "contenu": "Tableaux MP applicables :\n- **RA-59** (régime RA, n° 59 ) : Lymphome non hodgkinien provoqué par exposition aux pesticides",
+      "sources": [
+        {
+          "type": "REG-FR",
+          "titre": "Décret n° 2020-1257 — Tableau RA-59 lymphome non hodgkinien et pesticides",
+          "annee": 2020,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042424802/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "4. Métiers et secteurs exposés",
+      "contenu": "Métiers et secteurs exposés :\n- **AGRICULTURE** : Agriculteur, Applicateur phytosanitaire, Viticulteur\n- **INDUSTRIE** : Collectivites voirie",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — glyphosate — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/glyphosate",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "EFSA — Conclusion peer review glyphosate, divergence avec CIRC (à valider)",
+          "annee": 2023,
+          "organisme": "EFSA",
+          "url": "https://www.efsa.europa.eu/en/efsajournal/pub/8164",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "5. Surveillance médicale recommandée et organes cibles",
+      "contenu": "**Organes cibles** : Moelle osseuse (hematopoietique), Système nerveux (neurologique)\n**Surveillance médicale recommandée** :\n- Pathologie ciblée : Maladie parkinson pesticides → examen **Examen neurologique clinique** (tous les 12 mois, source HAS-2021 2021)\n- Pathologie ciblée : Lymphome non hodgkinien glyphosate → examen **Numération formule sanguine + plaquettes** (tous les 12 mois, source INRS-pesticides 2020)",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — glyphosate — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/glyphosate",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "EBM-1a",
+          "titre": "CIRC Monographs Vol. 112 — Glyphosate (classement 2A)",
+          "annee": 2017,
+          "organisme": "IARC/WHO",
+          "url": "https://publications.iarc.fr/549",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "EFSA — Conclusion peer review glyphosate, divergence avec CIRC (à valider)",
+          "annee": 2023,
+          "organisme": "EFSA",
+          "url": "https://www.efsa.europa.eu/en/efsajournal/pub/8164",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Décret n° 2020-1257 — Tableau RA-59 lymphome non hodgkinien et pesticides",
+          "annee": 2020,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042424802/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    }
+  ],
+  "alternatives_ecartees": [
+    {
+      "alternative": "Reconnaissance comme cancérogène avéré (C1A)",
+      "raison_ecartement": "Classement CIRC 2A (cancérogène probable) basé sur preuves limitées chez l'homme et suffisantes chez l'animal. Divergence EFSA/ECHA qui classent non cancérogène. À valider en review humaine - controverse active.",
+      "source": {
+        "type": "EBM-1a",
+        "titre": "CIRC/IARC Monographs — classification cancérogène",
+        "annee": 2024,
+        "organisme": "IARC/WHO",
+        "url": "https://monographs.iarc.who.int/",
+        "chunk_id": null,
+        "niveau_preuve_score": 5
+      }
+    }
+  ],
+  "chain_of_reasoning": "Cette fiche opposable pour Glyphosate a été construite selon la logique suivante :\n1. **Identification** : récupération depuis KG Kuzu (id=glyphosate) des propriétés CAS, catégorie, classification CMR, VLEP.\n2. **Pathologies** : 2 pathologie(s) référencée(s) via la relation Substance-[CAUSE]->Pathologie. Niveau de preuve hérité du KG ; à valider face aux dernières méta-analyses Cochrane/CIRC.\n3. **Tableaux MP** : 1 tableau(x) MP applicable(s) via la relation Pathologie-[CLASSIFIEE_DANS]->Tableau_MP. Toujours vérifier délai de prise en charge, durée d'exposition minimale, liste limitative des travaux sur INRS BDD MP (175 tableaux au 2026-05).\n4. **Métiers** : extraction via Metier-[EXPOSE_A]->Substance ; complémenter par fiche FMP Présanse spécifique au cas d'espèce.\n5. **Surveillance** : recommandations issues du KG (HAS/INRS) ; vérifier actualité (cycle 6 mois) et adapter au niveau d'exposition individuel.\nTotal : 6 source(s) primaire(s) citée(s). Cette fiche n'écarte aucune source connue — toute lacune est listée dans audit_check.lacunes_connues.",
+  "audit_check": {
+    "n_sections": 5,
+    "n_sources_total": 19,
+    "n_chunks_traces": 0,
+    "n_pathologies_kg": 2,
+    "n_tableaux_mp_kg": 1,
+    "n_metiers_kg": 4,
+    "n_surveillances_kg": 2,
+    "lacunes_connues": [
+      "Aucun chunk Table A tracé (BYOE pending) — pointeurs source_chunk_ids vides"
+    ],
+    "kg_version": "kuzu-50sub-v0.2",
+    "layer3_version": "layer3-v0.1",
+    "review_humaine_requise": true
+  },
+  "disclaimer": "Cette fiche est un support pédagogique généré depuis le KG DEBBY. Elle agrège des sources de référence (INRS, HAS, décrets FR) mais ne remplace pas la lecture des textes primaires ni le jugement clinique du médecin du travail."
+}

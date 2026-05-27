@@ -1,0 +1,268 @@
+{
+  "substance_id": "amiante",
+  "nom_fr": "Amiante (chrysotile, amosite, crocidolite)",
+  "generated_at": "2026-05-27",
+  "kg_version": "kuzu-50sub-v0.2",
+  "layer3_version": "layer3-v0.1",
+  "sections": [
+    {
+      "titre": "1. Identification chimique et classification réglementaire",
+      "contenu": "**Nom français** : Amiante (chrysotile, amosite, crocidolite) — **N° CAS** : `1332-21-4` — **Catégorie** : mineral — **Classification CMR (CLP)** : Cancérogène avéré 1A — **VLEP 8h** : `0.01 mg/m³`",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — amiante — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-94 à R4412-148 — Amiante",
+          "annee": 2022,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530386/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "HAS — Suivi post-professionnel après exposition à l'amiante (2010, mise à jour 2021)",
+          "annee": 2021,
+          "organisme": "HAS",
+          "url": "https://www.has-sante.fr/jcms/c_993368/fr/suivi-post-professionnel-amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "2. Pathologies professionnelles induites (niveau de preuve)",
+      "contenu": "Pathologies professionnelles induites :\n- **Asbestose** (respiratoire, sévérité=moderee, niveau de preuve=IARC-1)\n- **Plaques pleurales** (cutanee, sévérité=legere, niveau de preuve=IARC-1)\n- **Cancer broncho pulmonaire amiante** (cancer, sévérité=grave, niveau de preuve=IARC-1)\n- **Mesotheliome** (cancer, sévérité=grave, niveau de preuve=IARC-1)",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — amiante — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "HAS — Suivi post-professionnel après exposition à l'amiante (2010, mise à jour 2021)",
+          "annee": 2021,
+          "organisme": "HAS",
+          "url": "https://www.has-sante.fr/jcms/c_993368/fr/suivi-post-professionnel-amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "EBM-1a",
+          "titre": "CIRC Monographs Vol. 100C — Amiante (chrysotile, amosite, crocidolite)",
+          "annee": 2012,
+          "organisme": "IARC/WHO",
+          "url": "https://publications.iarc.fr/120",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "3. Tableaux de maladies professionnelles applicables (FR)",
+      "contenu": "Tableaux MP applicables :\n- **RA-47** (régime RA, n° 47 ) : Affections respiratoires professionnelles provoquées par les poussières de bois en agriculture\n- **RA-47-BIS** (régime RA, n° 47 BIS) : Affections cancéreuses provoquées par les poussières de bois en agriculture\n- **RA-47-TER** (régime RA, n° 47 TER) : Cancer naso-sinusien provoqué par les poussières de bois en agriculture\n- **RG-30** (régime RG, n° 30 ) : Affections professionnelles consécutives à l'inhalation de poussières d'amiante\n- **RG-30-BIS** (régime RG, n° 30 BIS) : Cancer broncho-pulmonaire provoqué par l'inhalation de poussières d'amiante\n- **RG-30-TER** (régime RG, n° 30 TER) : Mésothéliome malin primitif de la plèvre, du péritoine ou du péricarde causé par l'amiante",
+      "sources": [
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-94 à R4412-148 — Amiante",
+          "annee": 2022,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530386/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "4. Métiers et secteurs exposés",
+      "contenu": "Métiers et secteurs exposés :\n- **BTP** : Calorifugeur, Couvreur, Demolisseur, Plombier\n- **INDUSTRIE** : Mecanicien",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — amiante — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "HAS — Suivi post-professionnel après exposition à l'amiante (2010, mise à jour 2021)",
+          "annee": 2021,
+          "organisme": "HAS",
+          "url": "https://www.has-sante.fr/jcms/c_993368/fr/suivi-post-professionnel-amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "MCP-INRS",
+          "titre": "INRS — Base BDD MP (175 tableaux RG/RA), liste tableaux MP",
+          "annee": 2026,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/publications/bdd/mp/listeTableaux.html",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    },
+    {
+      "titre": "5. Surveillance médicale recommandée et organes cibles",
+      "contenu": "**Organes cibles** : Plèvre (respiratoire), Poumon (respiratoire)\n**Surveillance médicale recommandée** :\n- Pathologie ciblée : Cancer broncho pulmonaire amiante → examen **Scanner thoracique** (tous les 60 mois, source HAS-2022 2022)\n- Pathologie ciblée : Plaques pleurales → examen **Scanner thoracique** (tous les 60 mois, source HAS-2022 2022)\n- Pathologie ciblée : Mesotheliome → examen **Scanner thoracique** (tous les 60 mois, source HAS-2022 2022)\n- Pathologie ciblée : Asbestose → examen **Scanner thoracique** (tous les 60 mois, source HAS-2022 2022)",
+      "sources": [
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "Fiche INRS — amiante — Synthèse risque",
+          "annee": 2024,
+          "organisme": "INRS",
+          "url": "https://www.inrs.fr/risques/amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-94 à R4412-148 — Amiante",
+          "annee": 2022,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530386/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "AVIS-EXPERT",
+          "titre": "HAS — Suivi post-professionnel après exposition à l'amiante (2010, mise à jour 2021)",
+          "annee": 2021,
+          "organisme": "HAS",
+          "url": "https://www.has-sante.fr/jcms/c_993368/fr/suivi-post-professionnel-amiante",
+          "chunk_id": null,
+          "niveau_preuve_score": 4
+        },
+        {
+          "type": "EBM-1a",
+          "titre": "CIRC Monographs Vol. 100C — Amiante (chrysotile, amosite, crocidolite)",
+          "annee": 2012,
+          "organisme": "IARC/WHO",
+          "url": "https://publications.iarc.fr/120",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        },
+        {
+          "type": "REG-FR",
+          "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+          "annee": 2023,
+          "organisme": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+          "chunk_id": null,
+          "niveau_preuve_score": 5
+        }
+      ]
+    }
+  ],
+  "alternatives_ecartees": [
+    {
+      "alternative": "Maintien à l'identique du procédé exposant à un agent CMR C1A",
+      "raison_ecartement": "Obligation réglementaire de substitution (Code du travail R4412-66) — l'employeur doit rechercher activement un produit ou procédé de substitution moins dangereux.",
+      "source": {
+        "type": "REG-FR",
+        "titre": "Code du travail — Art. R4412-59 et suivants — Risque CMR",
+        "annee": 2023,
+        "organisme": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530418/",
+        "chunk_id": null,
+        "niveau_preuve_score": 5
+      }
+    },
+    {
+      "alternative": "Surveillance médicale standard (visite tous les 5 ans)",
+      "raison_ecartement": "CMR catégorie C1A impose Suivi Individuel Renforcé (SIR) avec examens spécifiques selon HAS et INRS. Cf. R4624-23.",
+      "source": {
+        "type": "REG-FR",
+        "titre": "Code du travail — Art. R4412-149 et suivants — VLEP contraignantes et indicatives",
+        "annee": 2023,
+        "organisme": "Légifrance / Ministère du travail",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018530338/",
+        "chunk_id": null,
+        "niveau_preuve_score": 5
+      }
+    },
+    {
+      "alternative": "Reprise d'activité sans suivi post-professionnel",
+      "raison_ecartement": "HAS 2010 (mise à jour 2021) recommande suivi post-exposition amiante (scanner thoracique tous les 5-10 ans selon exposition cumulée) pour dépistage précoce mésothéliome et cancer bronchique.",
+      "source": {
+        "type": "AVIS-EXPERT",
+        "titre": "HAS — Suivi post-professionnel après exposition à l'amiante (2010, mise à jour 2021)",
+        "annee": 2021,
+        "organisme": "HAS",
+        "url": "https://www.has-sante.fr/jcms/c_993368/fr/suivi-post-professionnel-amiante",
+        "chunk_id": null,
+        "niveau_preuve_score": 4
+      }
+    }
+  ],
+  "chain_of_reasoning": "Cette fiche opposable pour Amiante (chrysotile, amosite, crocidolite) a été construite selon la logique suivante :\n1. **Identification** : récupération depuis KG Kuzu (id=amiante) des propriétés CAS, catégorie, classification CMR, VLEP.\n2. **Pathologies** : 4 pathologie(s) référencée(s) via la relation Substance-[CAUSE]->Pathologie. Niveau de preuve hérité du KG ; à valider face aux dernières méta-analyses Cochrane/CIRC.\n3. **Tableaux MP** : 6 tableau(x) MP applicable(s) via la relation Pathologie-[CLASSIFIEE_DANS]->Tableau_MP. Toujours vérifier délai de prise en charge, durée d'exposition minimale, liste limitative des travaux sur INRS BDD MP (175 tableaux au 2026-05).\n4. **Métiers** : extraction via Metier-[EXPOSE_A]->Substance ; complémenter par fiche FMP Présanse spécifique au cas d'espèce.\n5. **Surveillance** : recommandations issues du KG (HAS/INRS) ; vérifier actualité (cycle 6 mois) et adapter au niveau d'exposition individuel.\n6. **CMR C1A** : applique la grille CMR (substitution obligatoire, SIR, fiche d'exposition, attestation au départ).\nTotal : 6 source(s) primaire(s) citée(s). Cette fiche n'écarte aucune source connue — toute lacune est listée dans audit_check.lacunes_connues.",
+  "audit_check": {
+    "n_sections": 5,
+    "n_sources_total": 19,
+    "n_chunks_traces": 0,
+    "n_pathologies_kg": 4,
+    "n_tableaux_mp_kg": 6,
+    "n_metiers_kg": 5,
+    "n_surveillances_kg": 4,
+    "lacunes_connues": [
+      "Aucun chunk Table A tracé (BYOE pending) — pointeurs source_chunk_ids vides"
+    ],
+    "kg_version": "kuzu-50sub-v0.2",
+    "layer3_version": "layer3-v0.1",
+    "review_humaine_requise": true
+  },
+  "disclaimer": "Cette fiche est un support pédagogique généré depuis le KG DEBBY. Elle agrège des sources de référence (INRS, HAS, décrets FR) mais ne remplace pas la lecture des textes primaires ni le jugement clinique du médecin du travail."
+}
